@@ -1,0 +1,16 @@
+{
+    "name": "getconstants",
+    "aliases": [
+        "debug.getconstants"
+    ],
+    "type": "function",
+    "description": "Returns constants from a Lua function or stack level as a table keyed by one-based constant index. Nil, function, and table constants are absent.",
+    "parameters": [
+        {
+            "name": "target",
+            "type": "function | number",
+            "description": "Lua function or stack level whose constants are returned."
+        }
+    ],
+    "returns": "table"
+}

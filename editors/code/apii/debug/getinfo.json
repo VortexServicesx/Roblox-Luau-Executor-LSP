@@ -1,0 +1,16 @@
+{
+    "name": "getinfo",
+    "aliases": [
+        "debug.getinfo"
+    ],
+    "type": "function",
+    "description": "Returns a metadata table for a function or stack level. The table contains func, nups, source, short_src, currentline, what, linedefined, is_vararg, numparams, and name. sizep is included only for direct Lua function targets.",
+    "parameters": [
+        {
+            "name": "target",
+            "type": "function | number",
+            "description": "Function or stack level number to inspect."
+        }
+    ],
+    "returns": "table"
+}

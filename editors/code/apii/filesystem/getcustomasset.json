@@ -1,0 +1,16 @@
+{
+    "name": "getcustomasset",
+    "aliases": [
+        "getsynasset"
+    ],
+    "type": "function",
+    "description": "Copies an existing regular workspace file into ExtraContent and returns an rbxasset:// string for the copied asset path.",
+    "parameters": [
+        {
+            "name": "path",
+            "type": "string",
+            "description": "Path to the workspace file."
+        }
+    ],
+    "returns": "string"
+}

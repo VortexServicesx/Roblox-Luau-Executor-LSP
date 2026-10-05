@@ -1,0 +1,26 @@
+{
+    "name": "setstack",
+    "aliases": [
+        "debug.setstack"
+    ],
+    "type": "function",
+    "description": "Replaces one stack slot value in a Lua stack frame.",
+    "parameters": [
+        {
+            "name": "level",
+            "type": "number",
+            "description": "Stack level number. Must satisfy 0 <= level < the current call stack depth."
+        },
+        {
+            "name": "index",
+            "type": "number",
+            "description": "One-based stack slot index."
+        },
+        {
+            "name": "value",
+            "type": "any",
+            "description": "New value for the stack slot."
+        }
+    ],
+    "returns": "()"
+}

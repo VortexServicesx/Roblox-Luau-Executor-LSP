@@ -1,0 +1,26 @@
+{
+    "name": "setconstant",
+    "aliases": [
+        "debug.setconstant"
+    ],
+    "type": "function",
+    "description": "Replaces one constant in a Lua function or stack level by one-based index.",
+    "parameters": [
+        {
+            "name": "target",
+            "type": "function | number",
+            "description": "Lua function or stack level whose constant is modified."
+        },
+        {
+            "name": "index",
+            "type": "number",
+            "description": "One-based constant index."
+        },
+        {
+            "name": "value",
+            "type": "any",
+            "description": "New value for the constant."
+        }
+    ],
+    "returns": "()"
+}

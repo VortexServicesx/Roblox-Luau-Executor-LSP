@@ -1,0 +1,16 @@
+{
+    "name": "getprotos",
+    "aliases": [
+        "debug.getprotos"
+    ],
+    "type": "function",
+    "description": "Returns all nested Lua functions from a Lua function or stack level as a one-based array table.",
+    "parameters": [
+        {
+            "name": "target",
+            "type": "function | number",
+            "description": "Lua function or stack level whose nested functions are returned."
+        }
+    ],
+    "returns": "table"
+}

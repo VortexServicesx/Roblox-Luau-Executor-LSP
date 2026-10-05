@@ -1,0 +1,28 @@
+{
+    "name": "ImGuiWindow.Checkbox",
+    "type": "function",
+    "description": "Appends a checkbox element to an ImGuiWindow. The callback is invoked with the new boolean value when the checkbox changes, and the method returns the same ImGuiWindow object.",
+    "parameters": [
+        {
+            "name": "window",
+            "type": "ImGuiWindow",
+            "description": "ImGuiWindow object returned by imgui.create."
+        },
+        {
+            "name": "label",
+            "type": "string",
+            "description": "Checkbox label string."
+        },
+        {
+            "name": "checked",
+            "type": "any",
+            "description": "Initial checked value. nil and false are treated as false; other values are treated as true."
+        },
+        {
+            "name": "onChange",
+            "type": "function",
+            "description": "Callback invoked with the new boolean state after a change."
+        }
+    ],
+    "returns": "ImGuiWindow"
+}

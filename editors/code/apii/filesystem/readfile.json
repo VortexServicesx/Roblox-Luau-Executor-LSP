@@ -1,0 +1,16 @@
+{
+    "name": "readfile",
+    "aliases": [
+        "readfileasync"
+    ],
+    "type": "function",
+    "description": "Reads an existing regular file inside the workspace in binary mode and returns its bytes as a Lua string.",
+    "parameters": [
+        {
+            "name": "path",
+            "type": "string",
+            "description": "Path to the file."
+        }
+    ],
+    "returns": "string"
+}

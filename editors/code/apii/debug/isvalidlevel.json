@@ -1,0 +1,18 @@
+{
+    "name": "isvalidlevel",
+    "aliases": [
+        "validlevel",
+        "debug.isvalidlevel",
+        "debug.validlevel"
+    ],
+    "type": "function",
+    "description": "Checks whether a numeric stack level is within the current call stack range.",
+    "parameters": [
+        {
+            "name": "level",
+            "type": "number",
+            "description": "Stack level number converted to an integer and checked against the current call stack range."
+        }
+    ],
+    "returns": "boolean"
+}

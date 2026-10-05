@@ -1,0 +1,28 @@
+{
+    "name": "ImGuiWindow.InputText",
+    "type": "function",
+    "description": "Appends a single-line ImGui InputText element to an ImGuiWindow and stores the callback. The initial text is copied into a fixed 256-byte text buffer. When the input changes, the callback receives the current string.",
+    "parameters": [
+        {
+            "name": "window",
+            "type": "ImGuiWindow",
+            "description": "ImGuiWindow object returned by imgui.create."
+        },
+        {
+            "name": "label",
+            "type": "string",
+            "description": "Input label."
+        },
+        {
+            "name": "text",
+            "type": "string?",
+            "description": "Optional initial text. When omitted or nil, the input starts with an empty string."
+        },
+        {
+            "name": "onChange",
+            "type": "function",
+            "description": "Callback invoked with the current string after an edit event."
+        }
+    ],
+    "returns": "ImGuiWindow"
+}

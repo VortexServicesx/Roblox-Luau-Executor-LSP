@@ -1,0 +1,21 @@
+{
+    "name": "getupvalue",
+    "aliases": [
+        "debug.getupvalue"
+    ],
+    "type": "function",
+    "description": "Returns one upvalue from a Lua function or stack level by one-based index.",
+    "parameters": [
+        {
+            "name": "target",
+            "type": "function | number",
+            "description": "Lua function or stack level whose upvalue is read."
+        },
+        {
+            "name": "index",
+            "type": "number",
+            "description": "One-based upvalue index."
+        }
+    ],
+    "returns": "any"
+}

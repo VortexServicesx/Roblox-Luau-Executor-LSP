@@ -1,0 +1,13 @@
+{
+    "name": "isfolder",
+    "type": "function",
+    "description": "Returns whether a path resolved inside the workspace exists and is a directory.",
+    "parameters": [
+        {
+            "name": "path",
+            "type": "string",
+            "description": "Path to check."
+        }
+    ],
+    "returns": "boolean"
+}

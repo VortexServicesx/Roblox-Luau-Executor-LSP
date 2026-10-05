@@ -1,0 +1,13 @@
+{
+    "name": "listfiles",
+    "type": "function",
+    "description": "Returns an array table of the direct children of an existing workspace directory.",
+    "parameters": [
+        {
+            "name": "path",
+            "type": "string",
+            "description": "Directory path to list."
+        }
+    ],
+    "returns": "table"
+}

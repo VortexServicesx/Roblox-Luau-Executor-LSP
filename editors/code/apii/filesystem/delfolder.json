@@ -1,0 +1,13 @@
+{
+    "name": "delfolder",
+    "type": "function",
+    "description": "Deletes an existing folder inside the workspace recursively.",
+    "parameters": [
+        {
+            "name": "path",
+            "type": "string",
+            "description": "Path to the folder."
+        }
+    ],
+    "returns": "()"
+}

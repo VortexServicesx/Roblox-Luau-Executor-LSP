@@ -1,0 +1,7 @@
+{
+    "name": "getrenv",
+    "type": "function",
+    "description": "Returns the Roblox global environment table. The function takes no arguments and returns exactly one value.",
+    "parameters": [],
+    "returns": "table"
+}

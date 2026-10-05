@@ -1,0 +1,13 @@
+{
+    "name": "delfile",
+    "type": "function",
+    "description": "Deletes an existing regular file inside the workspace.",
+    "parameters": [
+        {
+            "name": "path",
+            "type": "string",
+            "description": "Path to the file."
+        }
+    ],
+    "returns": "()"
+}

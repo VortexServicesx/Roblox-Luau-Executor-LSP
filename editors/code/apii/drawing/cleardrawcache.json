@@ -1,0 +1,7 @@
+{
+    "name": "cleardrawcache",
+    "type": "function",
+    "description": "Clears Real's global Drawing object list. Each tracked Drawing object is marked as destroyed, image resources are released when present, and the object list is emptied.",
+    "parameters": [],
+    "returns": "()"
+}

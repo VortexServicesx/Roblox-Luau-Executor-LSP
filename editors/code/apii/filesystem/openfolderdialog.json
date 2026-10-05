@@ -1,0 +1,13 @@
+{
+    "name": "openfolderdialog",
+    "type": "function",
+    "description": "Opens a Windows folder picker and returns the selected folder as a file item.",
+    "parameters": [
+        {
+            "name": "options",
+            "type": "DialogOptions?",
+            "description": "Optional dialog configuration."
+        }
+    ],
+    "returns": "FileSystemItem | nil"
+}

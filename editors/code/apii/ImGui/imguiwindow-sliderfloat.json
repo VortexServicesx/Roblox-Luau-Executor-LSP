@@ -1,0 +1,38 @@
+{
+    "name": "ImGuiWindow.SliderFloat",
+    "type": "function",
+    "description": "Adds a floating-point slider to the window. The label, value, minimum, and maximum arguments are required. When the user changes the slider, the callback receives the updated numeric value.",
+    "parameters": [
+        {
+            "name": "window",
+            "type": "ImGuiWindow",
+            "description": "ImGuiWindow object returned by imgui.create."
+        },
+        {
+            "name": "label",
+            "type": "string",
+            "description": "Slider label."
+        },
+        {
+            "name": "value",
+            "type": "number",
+            "description": "Initial slider value."
+        },
+        {
+            "name": "minimum",
+            "type": "number",
+            "description": "Minimum slider value."
+        },
+        {
+            "name": "maximum",
+            "type": "number",
+            "description": "Maximum slider value."
+        },
+        {
+            "name": "onChange",
+            "type": "(number) -> ()",
+            "description": "Callback called with the updated numeric value."
+        }
+    ],
+    "returns": "ImGuiWindow"
+}

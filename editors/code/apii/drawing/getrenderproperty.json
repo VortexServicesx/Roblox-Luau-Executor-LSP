@@ -1,0 +1,18 @@
+{
+    "name": "getrenderproperty",
+    "type": "function",
+    "description": "Returns the result of indexing the first argument with the given property key. For Drawing objects, this uses the same property lookup as direct object[property] access.",
+    "parameters": [
+        {
+            "name": "object",
+            "type": "any",
+            "description": "Value to index. With a Drawing object, the Drawing object's property lookup is used."
+        },
+        {
+            "name": "property",
+            "type": "any",
+            "description": "Property key used for indexing. Drawing object properties are string-based."
+        }
+    ],
+    "returns": "any"
+}

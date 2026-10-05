@@ -1,0 +1,16 @@
+{
+    "name": "getgc",
+    "aliases": [
+        "get_gc_objects"
+    ],
+    "type": "function",
+    "description": "Returns an array table of live Luau garbage-collected objects visible to the API. Functions and userdata-like objects are included by default. Tables are included only when includeTables is true.",
+    "parameters": [
+        {
+            "name": "includeTables",
+            "type": "boolean?",
+            "description": "When true, live tables are included in addition to functions and userdata-like objects."
+        }
+    ],
+    "returns": "table"
+}

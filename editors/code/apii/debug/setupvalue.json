@@ -1,0 +1,26 @@
+{
+    "name": "setupvalue",
+    "aliases": [
+        "debug.setupvalue"
+    ],
+    "type": "function",
+    "description": "Replaces one upvalue in a Lua function or stack level by one-based index.",
+    "parameters": [
+        {
+            "name": "target",
+            "type": "function | number",
+            "description": "Lua function or stack level whose upvalue is modified."
+        },
+        {
+            "name": "index",
+            "type": "number",
+            "description": "One-based upvalue index."
+        },
+        {
+            "name": "value",
+            "type": "any",
+            "description": "New value for the upvalue."
+        }
+    ],
+    "returns": "()"
+}

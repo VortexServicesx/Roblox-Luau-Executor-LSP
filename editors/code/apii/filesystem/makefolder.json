@@ -1,0 +1,13 @@
+{
+    "name": "makefolder",
+    "type": "function",
+    "description": "Creates a directory inside the workspace with recursive folder creation, including missing parent directories.",
+    "parameters": [
+        {
+            "name": "path",
+            "type": "string",
+            "description": "Directory path to create."
+        }
+    ],
+    "returns": "()"
+}

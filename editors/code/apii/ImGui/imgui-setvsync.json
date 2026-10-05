@@ -1,0 +1,13 @@
+{
+    "name": "imgui.setvsync",
+    "type": "function",
+    "description": "Updates the ImGui renderer's vertical-synchronization preference. The current presentation path stores this preference but does not apply it.",
+    "parameters": [
+        {
+            "name": "enabled",
+            "type": "boolean",
+            "description": "True to request vertical synchronization; false to request uncapped presentation."
+        }
+    ],
+    "returns": "()"
+}

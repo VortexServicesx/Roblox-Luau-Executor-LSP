@@ -1,0 +1,13 @@
+{
+    "name": "ImGuiWindow.destroy",
+    "type": "function",
+    "description": "Destroys an ImGuiWindow, removes it from Real's tracked ImGui window list, releases stored element callbacks, deletes the window record, and clears its Instance reference. Calling destroy again on the same object does nothing.",
+    "parameters": [
+        {
+            "name": "window",
+            "type": "ImGuiWindow",
+            "description": "ImGuiWindow object to destroy."
+        }
+    ],
+    "returns": "()"
+}

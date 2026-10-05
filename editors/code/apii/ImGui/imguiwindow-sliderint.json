@@ -1,0 +1,38 @@
+{
+    "name": "ImGuiWindow.SliderInt",
+    "type": "function",
+    "description": "Adds an integer slider to the window. The label, value, minimum, and maximum arguments are required. When the user changes the slider, the callback receives the updated integer value.",
+    "parameters": [
+        {
+            "name": "window",
+            "type": "ImGuiWindow",
+            "description": "ImGuiWindow object returned by imgui.create."
+        },
+        {
+            "name": "label",
+            "type": "string",
+            "description": "Slider label."
+        },
+        {
+            "name": "value",
+            "type": "integer",
+            "description": "Initial integer slider value."
+        },
+        {
+            "name": "minimum",
+            "type": "integer",
+            "description": "Minimum integer value."
+        },
+        {
+            "name": "maximum",
+            "type": "integer",
+            "description": "Maximum integer value."
+        },
+        {
+            "name": "onChange",
+            "type": "(number) -> ()",
+            "description": "Callback called with the updated integer value."
+        }
+    ],
+    "returns": "ImGuiWindow"
+}

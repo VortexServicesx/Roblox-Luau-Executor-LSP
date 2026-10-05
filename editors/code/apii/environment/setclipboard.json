@@ -1,0 +1,16 @@
+{
+    "name": "setclipboard",
+    "aliases": [
+        "toclipboard"
+    ],
+    "type": "function",
+    "description": "Writes one value to the Windows system clipboard as text. The value is converted to a string. The function returns no status value, whether the clipboard write succeeds or fails.",
+    "parameters": [
+        {
+            "name": "text",
+            "type": "any",
+            "description": "Value converted to a string and written to the Windows system clipboard."
+        }
+    ],
+    "returns": "()"
+}

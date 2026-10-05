@@ -1,0 +1,13 @@
+{
+    "name": "isfile",
+    "type": "function",
+    "description": "Returns whether a path resolved inside the workspace exists and is a regular file.",
+    "parameters": [
+        {
+            "name": "path",
+            "type": "string",
+            "description": "Path to check."
+        }
+    ],
+    "returns": "boolean"
+}

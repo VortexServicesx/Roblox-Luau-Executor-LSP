@@ -1,0 +1,12 @@
+{
+    "name": "getreg",
+    "aliases": [
+        "getregistry",
+        "debug.getreg",
+        "debug.getregistry"
+    ],
+    "type": "function",
+    "description": "Returns the current Lua registry table.",
+    "parameters": [],
+    "returns": "table"
+}

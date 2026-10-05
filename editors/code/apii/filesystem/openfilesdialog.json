@@ -1,0 +1,13 @@
+{
+    "name": "openfilesdialog",
+    "type": "function",
+    "description": "Opens a Windows file-open dialog with multi-select enabled and returns the selected files as file item values.",
+    "parameters": [
+        {
+            "name": "options",
+            "type": "DialogOptions?",
+            "description": "Optional dialog configuration."
+        }
+    ],
+    "returns": "{ FileSystemItem } | nil"
+}

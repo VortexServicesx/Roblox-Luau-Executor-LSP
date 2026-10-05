@@ -1,0 +1,21 @@
+{
+    "name": "appendfile",
+    "aliases": [
+        "appendfileasync"
+    ],
+    "type": "function",
+    "description": "Appends raw Lua string bytes to a workspace file using binary append mode. The file may be created if its parent folder exists.",
+    "parameters": [
+        {
+            "name": "path",
+            "type": "string",
+            "description": "Path resolved inside the workspace."
+        },
+        {
+            "name": "data",
+            "type": "string",
+            "description": "Lua string bytes to append."
+        }
+    ],
+    "returns": "()"
+}

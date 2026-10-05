@@ -1,0 +1,13 @@
+{
+    "name": "ImGuiWindow.Separator",
+    "type": "function",
+    "description": "Adds a separator line to the window.",
+    "parameters": [
+        {
+            "name": "window",
+            "type": "ImGuiWindow",
+            "description": "ImGuiWindow object returned by imgui.create."
+        }
+    ],
+    "returns": "ImGuiWindow"
+}

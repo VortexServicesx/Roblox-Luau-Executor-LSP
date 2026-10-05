@@ -1,0 +1,13 @@
+{
+    "name": "setrbxclipboard",
+    "type": "function",
+    "description": "Writes a required string to the Windows clipboard using Roblox Studio clipboard data format. The function returns no status value, whether the clipboard write succeeds or fails.",
+    "parameters": [
+        {
+            "name": "text",
+            "type": "string",
+            "description": "String written to the Roblox Studio clipboard data format."
+        }
+    ],
+    "returns": "()"
+}

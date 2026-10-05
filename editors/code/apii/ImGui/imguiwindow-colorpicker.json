@@ -1,0 +1,43 @@
+{
+    "name": "ImGuiWindow.ColorPicker",
+    "type": "function",
+    "description": "Appends an RGBA color editor to an ImGuiWindow and stores the callback. Missing or nil color components default to 1.0. When the editor changes, the callback receives red, green, blue, and alpha.",
+    "parameters": [
+        {
+            "name": "window",
+            "type": "ImGuiWindow",
+            "description": "ImGuiWindow object returned by imgui.create."
+        },
+        {
+            "name": "label",
+            "type": "string",
+            "description": "Color editor label."
+        },
+        {
+            "name": "red",
+            "type": "number?",
+            "description": "Initial red component. Defaults to 1.0 when omitted or nil."
+        },
+        {
+            "name": "green",
+            "type": "number?",
+            "description": "Initial green component. Defaults to 1.0 when omitted or nil."
+        },
+        {
+            "name": "blue",
+            "type": "number?",
+            "description": "Initial blue component. Defaults to 1.0 when omitted or nil."
+        },
+        {
+            "name": "alpha",
+            "type": "number?",
+            "description": "Initial alpha component. Defaults to 1.0 when omitted or nil."
+        },
+        {
+            "name": "onChange",
+            "type": "function",
+            "description": "Callback invoked with red, green, blue, and alpha after a color change."
+        }
+    ],
+    "returns": "ImGuiWindow"
+}

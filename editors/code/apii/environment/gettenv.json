@@ -1,0 +1,16 @@
+{
+    "name": "gettenv",
+    "aliases": [
+        "getstateenv"
+    ],
+    "type": "function",
+    "description": "Returns the environment table stored on a Luau thread.",
+    "parameters": [
+        {
+            "name": "thread",
+            "type": "thread",
+            "description": "Luau thread whose environment table is returned."
+        }
+    ],
+    "returns": "table"
+}

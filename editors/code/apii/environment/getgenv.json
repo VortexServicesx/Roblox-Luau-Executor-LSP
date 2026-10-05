@@ -1,0 +1,7 @@
+{
+    "name": "getgenv",
+    "type": "function",
+    "description": "Returns the current executor environment table by pushing LUA_ENVIRONINDEX. The function takes no arguments and returns exactly one value.",
+    "parameters": [],
+    "returns": "table"
+}

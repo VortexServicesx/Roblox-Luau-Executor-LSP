@@ -1,0 +1,16 @@
+{
+    "name": "getupvalues",
+    "aliases": [
+        "debug.getupvalues"
+    ],
+    "type": "function",
+    "description": "Returns all upvalues from a Lua function or stack level as a one-based array table.",
+    "parameters": [
+        {
+            "name": "target",
+            "type": "function | number",
+            "description": "Lua function or stack level whose upvalues are returned."
+        }
+    ],
+    "returns": "table"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "imgui.create",
+    "type": "function",
+    "description": "Creates a tracked ImGui window record and returns an ImGuiWindow object. The title defaults to \"REAL_IM_UI\" when omitted or nil. The title must be unique among currently tracked ImGui windows.",
+    "parameters": [
+        {
+            "name": "title",
+            "type": "string?",
+            "description": "Optional window title. When omitted or nil, \"REAL_IM_UI\" is used. A duplicate title among tracked ImGui windows raises a Lua error."
+        }
+    ],
+    "returns": "ImGuiWindow"
+}

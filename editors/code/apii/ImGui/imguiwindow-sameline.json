@@ -1,0 +1,13 @@
+{
+    "name": "ImGuiWindow.SameLine",
+    "type": "function",
+    "description": "Adds a layout marker so the next rendered item can continue on the same row.",
+    "parameters": [
+        {
+            "name": "window",
+            "type": "ImGuiWindow",
+            "description": "ImGuiWindow object returned by imgui.create."
+        }
+    ],
+    "returns": "ImGuiWindow"
+}

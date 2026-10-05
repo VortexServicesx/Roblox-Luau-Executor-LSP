@@ -1,0 +1,13 @@
+{
+    "name": "Drawing.new",
+    "type": "function",
+    "description": "Creates a new Drawing object of the requested type and adds it to Real's tracked Drawing object list.",
+    "parameters": [
+        {
+            "name": "objectType",
+            "type": "\"Image\" | \"Line\" | \"Text\" | \"Circle\" | \"Square\" | \"Quad\" | \"Triangle\"",
+            "description": "Exact Drawing type name to create."
+        }
+    ],
+    "returns": "DrawingObject"
+}

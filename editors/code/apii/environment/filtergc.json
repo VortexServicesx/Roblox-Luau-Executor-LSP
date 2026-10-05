@@ -1,0 +1,23 @@
+{
+    "name": "filtergc",
+    "type": "function",
+    "description": "Searches live garbage-collected tables or functions that match the supplied filters. filterType must be \"table\" or \"function\". options must be a table.",
+    "parameters": [
+        {
+            "name": "filterType",
+            "type": "string",
+            "description": "GC object type to search. The value is lowercased and must be \"table\" or \"function\"."
+        },
+        {
+            "name": "options",
+            "type": "table",
+            "description": "Filter table. Function searches read Name, Hash, StartLine, IgnoreExecutor, IgnoreSyn, Environment, Constants, and Upvalues. Table searches read Metatable, Keys, Values, and KeyValuePairs."
+        },
+        {
+            "name": "returnOne",
+            "type": "boolean?",
+            "description": "When true, returns the first matching object or nil instead of an array table."
+        }
+    ],
+    "returns": "table | function | nil"
+}

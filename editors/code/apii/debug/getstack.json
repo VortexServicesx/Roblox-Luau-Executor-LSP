@@ -1,0 +1,21 @@
+{
+    "name": "getstack",
+    "aliases": [
+        "debug.getstack"
+    ],
+    "type": "function",
+    "description": "Reads stack slot values from a Lua stack frame. Without a numeric index, returns all stack values as a one-based table. With an index, returns the single stack slot value.",
+    "parameters": [
+        {
+            "name": "level",
+            "type": "number",
+            "description": "Stack level number converted to an integer. Must be in range 0 <= level < current call stack depth."
+        },
+        {
+            "name": "index",
+            "type": "number?",
+            "description": "Optional one-based stack slot index. When provided, the single value at that stack slot is returned."
+        }
+    ],
+    "returns": "table | any"
+}

@@ -1,0 +1,21 @@
+{
+    "name": "writefile",
+    "aliases": [
+        "writefileasync"
+    ],
+    "type": "function",
+    "description": "Writes Lua string bytes to a file inside the workspace, creating missing parent directories and replacing existing file contents.",
+    "parameters": [
+        {
+            "name": "path",
+            "type": "string",
+            "description": "Path to the file."
+        },
+        {
+            "name": "content",
+            "type": "string",
+            "description": "Lua string bytes to write."
+        }
+    ],
+    "returns": "()"
+}

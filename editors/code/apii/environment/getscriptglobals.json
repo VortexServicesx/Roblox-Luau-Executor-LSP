@@ -1,0 +1,7 @@
+{
+    "name": "getscriptglobals",
+    "type": "function",
+    "description": "Returns a new table containing the current LUA_GLOBALSINDEX values for _G and shared. The function takes no arguments and creates a fresh table.",
+    "parameters": [],
+    "returns": "table"
+}

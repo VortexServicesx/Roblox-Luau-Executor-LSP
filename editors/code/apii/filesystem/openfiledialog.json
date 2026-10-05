@@ -1,0 +1,13 @@
+{
+    "name": "openfiledialog",
+    "type": "function",
+    "description": "Opens a Windows file-open dialog and returns the selected file as a file item.",
+    "parameters": [
+        {
+            "name": "options",
+            "type": "DialogOptions?",
+            "description": "Optional dialog configuration."
+        }
+    ],
+    "returns": "FileSystemItem | nil"
+}

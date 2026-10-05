@@ -1,0 +1,13 @@
+{
+    "name": "isrenderobj",
+    "type": "function",
+    "description": "Returns whether a value is a Drawing object. This checks the object's Drawing type and does not check whether the underlying Drawing object is still active, tracked, or destroyed.",
+    "parameters": [
+        {
+            "name": "object",
+            "type": "any",
+            "description": "Value to test."
+        }
+    ],
+    "returns": "boolean"
+}

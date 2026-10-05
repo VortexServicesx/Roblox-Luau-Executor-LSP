@@ -1,0 +1,23 @@
+{
+    "name": "loadfile",
+    "aliases": [
+        "loadfileasync",
+        "dofile",
+        "dofileasync"
+    ],
+    "type": "function",
+    "description": "Reads a workspace file, compiles its contents with the Luau compiler, and returns the loaded Luau function without executing it.",
+    "parameters": [
+        {
+            "name": "path",
+            "type": "string",
+            "description": "File path resolved inside the workspace."
+        },
+        {
+            "name": "chunkName",
+            "type": "string?",
+            "description": "Optional chunk name passed to luau_load. Defaults to = when omitted or nil."
+        }
+    ],
+    "returns": "function | nil | string | nil"
+}

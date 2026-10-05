@@ -1,0 +1,23 @@
+{
+    "name": "ImGuiWindow.CollapsingHeader",
+    "type": "function",
+    "description": "Appends a collapsing header start marker, immediately calls the content callback with the same ImGuiWindow object so it can append nested elements, then appends a header end marker. Nested elements are skipped while the header is collapsed. Callback errors are caught.",
+    "parameters": [
+        {
+            "name": "window",
+            "type": "ImGuiWindow",
+            "description": "ImGuiWindow object returned by imgui.create."
+        },
+        {
+            "name": "label",
+            "type": "string",
+            "description": "Collapsing header label."
+        },
+        {
+            "name": "content",
+            "type": "function",
+            "description": "Callback receiving the same ImGuiWindow object so nested controls can be appended."
+        }
+    ],
+    "returns": "ImGuiWindow"
+}

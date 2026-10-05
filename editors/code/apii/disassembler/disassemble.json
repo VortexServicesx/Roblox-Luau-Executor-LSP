@@ -1,0 +1,18 @@
+﻿{
+    "name": "disassemble",
+    "type": "function",
+    "description": "Disassembles a Luau function and returns a formatted bytecode listing string. The function must be a valid non-C closure. An optional options table controls recursive prototype output, source line display, constant display, and string preview length.",
+    "parameters": [
+        {
+            "name": "callback",
+            "type": "function",
+            "description": "Luau function to disassemble. C closures are rejected."
+        },
+        {
+            "name": "options",
+            "type": "DisassembleOptions?",
+            "description": "Optional table controlling Recursive, ShowLines, ShowConstants, and StringPreviewMax."
+        }
+    ],
+    "returns": "string"
+}

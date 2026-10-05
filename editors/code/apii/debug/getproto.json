@@ -1,0 +1,26 @@
+{
+    "name": "getproto",
+    "aliases": [
+        "debug.getproto"
+    ],
+    "type": "function",
+    "description": "Returns a nested Lua function by one-based index. When active is true, returns currently live closures for that nested function instead.",
+    "parameters": [
+        {
+            "name": "target",
+            "type": "function | number",
+            "description": "Lua function or stack level whose nested functions are inspected."
+        },
+        {
+            "name": "index",
+            "type": "number",
+            "description": "One-based nested function index."
+        },
+        {
+            "name": "active",
+            "type": "boolean?",
+            "description": "When true, returns live closures for the selected nested function instead of a standalone function."
+        }
+    ],
+    "returns": "function | table"
+}

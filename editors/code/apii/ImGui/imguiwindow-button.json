@@ -1,0 +1,23 @@
+{
+    "name": "ImGuiWindow.Button",
+    "type": "function",
+    "description": "Appends a button element to an ImGuiWindow and stores the callback. When the rendered button is clicked, the callback is queued and later invoked without arguments. The method returns the same ImGuiWindow object.",
+    "parameters": [
+        {
+            "name": "window",
+            "type": "ImGuiWindow",
+            "description": "ImGuiWindow object returned by imgui.create."
+        },
+        {
+            "name": "label",
+            "type": "string",
+            "description": "Button label string."
+        },
+        {
+            "name": "onClick",
+            "type": "function",
+            "description": "Callback stored for the button and invoked without arguments after a click."
+        }
+    ],
+    "returns": "ImGuiWindow"
+}

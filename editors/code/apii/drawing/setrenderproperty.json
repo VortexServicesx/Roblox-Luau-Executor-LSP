@@ -1,0 +1,23 @@
+{
+    "name": "setrenderproperty",
+    "type": "function",
+    "description": "Assigns a value to object[property]. For Drawing objects, this uses the same property assignment as direct property assignment.",
+    "parameters": [
+        {
+            "name": "object",
+            "type": "any",
+            "description": "Value to assign into."
+        },
+        {
+            "name": "property",
+            "type": "any",
+            "description": "Property key used for assignment. Drawing object properties are string-based."
+        },
+        {
+            "name": "value",
+            "type": "any",
+            "description": "Value assigned to object[property]. The argument must be supplied; nil is still considered a supplied value."
+        }
+    ],
+    "returns": "()"
+}

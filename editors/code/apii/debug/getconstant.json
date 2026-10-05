@@ -1,0 +1,21 @@
+{
+    "name": "getconstant",
+    "aliases": [
+        "debug.getconstant"
+    ],
+    "type": "function",
+    "description": "Returns one constant from a Lua function or stack level by one-based index. Function and table constants are returned as nil.",
+    "parameters": [
+        {
+            "name": "target",
+            "type": "function | number",
+            "description": "Lua function or stack level whose constants are inspected."
+        },
+        {
+            "name": "index",
+            "type": "number",
+            "description": "One-based constant index."
+        }
+    ],
+    "returns": "any | nil"
+}
