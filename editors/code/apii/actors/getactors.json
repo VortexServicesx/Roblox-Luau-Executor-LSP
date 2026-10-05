@@ -1,0 +1,7 @@
+{
+    "name": "getactors",
+    "type": "function",
+    "description": "Returns an array table of live Actor Instances resolved from the actor thread list.",
+    "parameters": [],
+    "returns": "{Instance}"
+}

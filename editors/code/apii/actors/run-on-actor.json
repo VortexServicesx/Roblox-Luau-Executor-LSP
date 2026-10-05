@@ -1,0 +1,26 @@
+{
+    "name": "run_on_actor",
+    "aliases": [
+        "runonactor"
+    ],
+    "type": "function",
+    "description": "Runs Luau source on the thread associated with a target Actor Instance. The call returns no values produced by the dispatched source.",
+    "parameters": [
+        {
+            "name": "actor",
+            "type": "Instance",
+            "description": "Actor Instance whose associated thread should run the source."
+        },
+        {
+            "name": "source",
+            "type": "string",
+            "description": "Non-empty Luau source string to run on the Actor thread."
+        },
+        {
+            "name": "...arguments",
+            "type": "...any",
+            "description": "Additional values passed to the dispatched source when supported."
+        }
+    ],
+    "returns": "()"
+}

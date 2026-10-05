@@ -1,0 +1,10 @@
+{
+    "name": "create_comm_channel",
+    "type": "function",
+    "description": "Creates a new BindableEvent communication channel and returns its numeric channel ID and the BindableEvent Instance.",
+    "parameters": [],
+    "returns": [
+        "integer",
+        "Instance"
+    ]
+}

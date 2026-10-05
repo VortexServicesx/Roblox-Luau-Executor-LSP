@@ -1,0 +1,13 @@
+{
+    "name": "get_comm_channel",
+    "type": "function",
+    "description": "Returns the BindableEvent for a communication channel ID, or nil when no channel exists for that ID.",
+    "parameters": [
+        {
+            "name": "channelId",
+            "type": "number",
+            "description": "Communication channel ID to look up."
+        }
+    ],
+    "returns": "Instance | nil"
+}

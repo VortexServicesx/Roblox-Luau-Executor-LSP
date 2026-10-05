@@ -1,0 +1,10 @@
+{
+    "name": "getcurrentactor",
+    "aliases": [
+        "get_current_actor"
+    ],
+    "type": "function",
+    "description": "Returns the Actor Instance associated with the current Luau thread, or nil when no valid actor reference is present.",
+    "parameters": [],
+    "returns": "Instance | nil"
+}

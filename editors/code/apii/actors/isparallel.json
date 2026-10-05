@@ -1,0 +1,10 @@
+{
+    "name": "isparallel",
+    "aliases": [
+        "checkparallel"
+    ],
+    "type": "function",
+    "description": "Returns whether the current Luau execution context is running in parallel.",
+    "parameters": [],
+    "returns": "boolean"
+}

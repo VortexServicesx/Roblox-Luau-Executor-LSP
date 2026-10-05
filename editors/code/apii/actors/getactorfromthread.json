@@ -1,0 +1,16 @@
+{
+    "name": "getactorfromthread",
+    "aliases": [
+        "getactorfromstate"
+    ],
+    "type": "function",
+    "description": "Returns the Actor Instance associated with a Luau thread, or nil when no valid actor reference is present.",
+    "parameters": [
+        {
+            "name": "thread",
+            "type": "thread",
+            "description": "Luau thread whose thread data should be checked for an associated Actor."
+        }
+    ],
+    "returns": "Instance | nil"
+}

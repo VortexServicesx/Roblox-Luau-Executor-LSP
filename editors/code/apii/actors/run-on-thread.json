@@ -1,0 +1,26 @@
+{
+    "name": "run_on_thread",
+    "aliases": [
+        "runonthread"
+    ],
+    "type": "function",
+    "description": "Runs Luau source on a specific Luau thread. The call returns no values produced by the dispatched source.",
+    "parameters": [
+        {
+            "name": "thread",
+            "type": "thread",
+            "description": "Target Luau thread used to run the source."
+        },
+        {
+            "name": "source",
+            "type": "string",
+            "description": "Non-empty Luau source string to run on the target thread."
+        },
+        {
+            "name": "...arguments",
+            "type": "...any",
+            "description": "Additional values passed to the dispatched source when supported."
+        }
+    ],
+    "returns": "()"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "getdeletedactors",
+    "type": "function",
+    "description": "Returns an array table containing Luau threads for actor entries whose Actor weak reference has expired.",
+    "parameters": [],
+    "returns": "table"
+}

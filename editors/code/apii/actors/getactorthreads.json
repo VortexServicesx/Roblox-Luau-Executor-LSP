@@ -1,0 +1,10 @@
+{
+    "name": "getactorthreads",
+    "aliases": [
+        "getactorstates"
+    ],
+    "type": "function",
+    "description": "Returns an array table of Luau threads from the actor thread list.",
+    "parameters": [],
+    "returns": "{thread}"
+}
