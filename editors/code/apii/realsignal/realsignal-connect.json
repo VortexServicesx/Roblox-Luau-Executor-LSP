@@ -1,0 +1,18 @@
+{
+    "name": "RealSignal.Connect",
+    "type": "function",
+    "description": "Connects a callback to a RealSignal and returns a RealSignalConnection. The callback receives the arguments passed to Fire.",
+    "parameters": [
+        {
+            "name": "signal",
+            "type": "RealSignal",
+            "description": "Signal object returned by Signal.new."
+        },
+        {
+            "name": "callback",
+            "type": "(...any) -> ()",
+            "description": "Function called whenever the signal is fired while the connection remains connected."
+        }
+    ],
+    "returns": "RealSignalConnection"
+}

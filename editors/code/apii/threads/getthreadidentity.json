@@ -1,0 +1,20 @@
+{
+    "name": "getthreadidentity",
+    "aliases": [
+        "get_thread_identity",
+        "getidentity",
+        "getthreadcaps",
+        "getthreadcontext",
+        "get_thread_context"
+    ],
+    "type": "function",
+    "description": "Returns the identity for the current Luau thread, or for a supplied thread.",
+    "parameters": [
+        {
+            "name": "thread",
+            "type": "thread?",
+            "description": "Optional Luau thread to inspect. If omitted, the current thread is inspected."
+        }
+    ],
+    "returns": "integer"
+}

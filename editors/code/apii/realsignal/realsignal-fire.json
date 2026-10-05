@@ -1,0 +1,18 @@
+{
+    "name": "RealSignal.Fire",
+    "type": "function",
+    "description": "Fires the RealSignal with zero or more values. Connected callbacks receive those values, once connections are disconnected before invocation, and waiting threads are resumed with the same values.",
+    "parameters": [
+        {
+            "name": "signal",
+            "type": "RealSignal",
+            "description": "Signal object returned by Signal.new."
+        },
+        {
+            "name": "...values",
+            "type": "...any",
+            "description": "Values forwarded to connected callbacks and waiting threads."
+        }
+    ],
+    "returns": "()"
+}

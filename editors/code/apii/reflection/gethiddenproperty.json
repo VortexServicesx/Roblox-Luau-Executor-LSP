@@ -1,0 +1,21 @@
+{
+    "name": "gethiddenproperty",
+    "type": "function",
+    "description": "Reads a Roblox property using reflection metadata, including properties that are not scriptable. Returns the property value and whether the property was hidden from normal script access.",
+    "parameters": [
+        {
+            "name": "instance",
+            "type": "Instance",
+            "description": "Instance whose property should be read."
+        },
+        {
+            "name": "property",
+            "type": "string",
+            "description": "Property name resolved through Roblox property metadata."
+        }
+    ],
+    "returns": [
+        "any | nil",
+        "boolean | nil"
+    ]
+}

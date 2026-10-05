@@ -1,0 +1,13 @@
+{
+    "name": "getconnections",
+    "type": "function",
+    "description": "Returns the connections associated with an RBXScriptSignal.",
+    "parameters": [
+        {
+            "name": "signal",
+            "type": "RBXScriptSignal",
+            "description": "Signal whose connections should be retrieved."
+        }
+    ],
+    "returns": "table"
+}

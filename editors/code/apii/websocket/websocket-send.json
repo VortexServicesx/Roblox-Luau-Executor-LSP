@@ -1,0 +1,23 @@
+{
+    "name": "WebSocket.Send",
+    "type": "function",
+    "description": "Sends a Lua string through a WebSocket object returned by WebSocket.connect. Uses text mode by default and binary mode when isBinary is true.",
+    "parameters": [
+        {
+            "name": "socket",
+            "type": "WebSocket",
+            "description": "WebSocket table returned by WebSocket.connect."
+        },
+        {
+            "name": "message",
+            "type": "string",
+            "description": "String payload sent through the WebSocket."
+        },
+        {
+            "name": "isBinary",
+            "type": "boolean?",
+            "description": "When true, sends the message as binary data. Otherwise it is sent as text."
+        }
+    ],
+    "returns": "()"
+}   

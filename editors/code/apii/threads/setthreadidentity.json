@@ -1,0 +1,25 @@
+{
+    "name": "setthreadidentity",
+    "aliases": [
+        "set_thread_identity",
+        "setidentity",
+        "setthreadcaps",
+        "setthreadcontext",
+        "set_thread_context"
+    ],
+    "type": "function",
+    "description": "Sets the identity for the current Luau thread, or for a provided Luau thread.",
+    "parameters": [
+        {
+            "name": "thread",
+            "type": "thread?",
+            "description": "Optional Luau thread to update."
+        },
+        {
+            "name": "identity",
+            "type": "number",
+            "description": "Identity value to apply."
+        }
+    ],
+    "returns": "()"
+}

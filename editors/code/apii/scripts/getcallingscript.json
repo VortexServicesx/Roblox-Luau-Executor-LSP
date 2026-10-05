@@ -1,0 +1,7 @@
+{
+    "name": "getcallingscript",
+    "type": "function",
+    "description": "Returns the Script Instance associated with the current Luau thread, or nil when no script is associated with it.",
+    "parameters": [],
+    "returns": "Instance | nil"
+}

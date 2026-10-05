@@ -1,0 +1,18 @@
+{
+    "name": "replicatesignal",
+    "type": "function",
+    "description": "Attempts to replicate an RBXScriptSignal through Roblox's networking layer using the supplied arguments.",
+    "parameters": [
+        {
+            "name": "signal",
+            "type": "RBXScriptSignal",
+            "description": "Signal to replicate."
+        },
+        {
+            "name": "...arguments",
+            "type": "...any",
+            "description": "Arguments supplied when replicating the signal."
+        }
+    ],
+    "returns": "()"
+}

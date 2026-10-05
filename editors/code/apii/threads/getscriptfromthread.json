@@ -1,0 +1,13 @@
+{
+    "name": "getscriptfromthread",
+    "type": "function",
+    "description": "Returns the Script Instance associated with a Luau thread, or nil when no valid script reference is available.",
+    "parameters": [
+        {
+            "name": "thread",
+            "type": "thread",
+            "description": "Luau thread whose associated Script Instance is returned."
+        }
+    ],
+    "returns": "Instance | nil"
+}

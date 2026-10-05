@@ -1,0 +1,13 @@
+{
+    "name": "getscriptthread",
+    "type": "function",
+    "description": "Returns the Luau thread associated with a supported Script, LocalScript, or ModuleScript when Real can find one.",
+    "parameters": [
+        {
+            "name": "script",
+            "type": "userdata",
+            "description": "Script, LocalScript, or ModuleScript whose associated Lua thread should be found."
+        }
+    ],
+    "returns": "thread | nil"
+}

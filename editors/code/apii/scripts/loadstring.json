@@ -1,0 +1,21 @@
+{
+    "name": "loadstring",
+    "type": "function",
+    "description": "Compiles a Luau source string and returns the loaded function. When compilation fails, returns nil and an error message. The returned function is not executed automatically.",
+    "parameters": [
+        {
+            "name": "source",
+            "type": "string",
+            "description": "Luau source code to compile."
+        },
+        {
+            "name": "chunkName",
+            "type": "string?",
+            "description": "Optional chunk name used for error reporting. Defaults to \"@\" when omitted or nil."
+        }
+    ],
+    "returns": [
+        "function | nil",
+        "string | nil"
+    ]
+}

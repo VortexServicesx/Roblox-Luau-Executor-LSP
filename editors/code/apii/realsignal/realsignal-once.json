@@ -1,0 +1,18 @@
+{
+    "name": "RealSignal.Once",
+    "type": "function",
+    "description": "Connects a callback that is disconnected before its first callback invocation. The callback receives the arguments passed to Fire.",
+    "parameters": [
+        {
+            "name": "signal",
+            "type": "RealSignal",
+            "description": "Signal object returned by Signal.new."
+        },
+        {
+            "name": "callback",
+            "type": "(...any) -> ()",
+            "description": "Function called at most once for this connection."
+        }
+    ],
+    "returns": "RealSignalConnection"
+}

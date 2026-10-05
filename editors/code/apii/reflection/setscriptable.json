@@ -1,0 +1,23 @@
+{
+    "name": "setscriptable",
+    "type": "function",
+    "description": "Stores a scriptable override for a Roblox property and returns the previous scriptable state.",
+    "parameters": [
+        {
+            "name": "instance",
+            "type": "Instance",
+            "description": "Instance used as part of the scriptable override cache key."
+        },
+        {
+            "name": "property",
+            "type": "string",
+            "description": "Property name resolved through Roblox property metadata."
+        },
+        {
+            "name": "value",
+            "type": "boolean",
+            "description": "Scriptable override value to store."
+        }
+    ],
+    "returns": "boolean | nil"
+}

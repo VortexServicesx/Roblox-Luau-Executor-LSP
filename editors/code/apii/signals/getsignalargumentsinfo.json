@@ -1,0 +1,13 @@
+{
+    "name": "getsignalargumentsinfo",
+    "type": "function",
+    "description": "Returns detailed information about the arguments associated with a signal.",
+    "parameters": [
+        {
+            "name": "signal",
+            "type": "RBXScriptSignal",
+            "description": "Signal whose argument information should be inspected."
+        }
+    ],
+    "returns": "table"
+}

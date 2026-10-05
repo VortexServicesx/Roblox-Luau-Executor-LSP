@@ -1,0 +1,13 @@
+{
+    "name": "RealSignal.Wait",
+    "type": "function",
+    "description": "Yields the current thread until the RealSignal is fired, then resumes with the arguments passed to Fire. It errors when called from a context that cannot yield.",
+    "parameters": [
+        {
+            "name": "signal",
+            "type": "RealSignal",
+            "description": "Signal object returned by Signal.new."
+        }
+    ],
+    "returns": "...any"
+}

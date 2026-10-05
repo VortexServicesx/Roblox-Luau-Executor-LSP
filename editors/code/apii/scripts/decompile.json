@@ -1,0 +1,13 @@
+{
+    "name": "decompile",
+    "type": "function",
+    "description": "Decompiles a supported Roblox script and returns the generated source text when usable bytecode is available.",
+    "parameters": [
+        {
+            "name": "script",
+            "type": "userdata",
+            "description": "Supported script Instance. ModuleScript, LocalScript, CoreScript, or Script with RunContext Client."
+        }
+    ],
+    "returns": "string | nil"
+}

@@ -1,0 +1,18 @@
+{
+    "name": "WebSocket.connect",
+    "aliases": [
+        "WebSocket.Connect",
+        "websocket.connect",
+        "websocket.Connect"
+    ],
+    "type": "function",
+    "description": "Opens a WebSocket client connection to the provided URL and yields until the connection attempt finishes. On success, returns a WebSocket table containing OnMessage and OnClose events, Send and Close methods, and connection state.",
+    "parameters": [
+        {
+            "name": "url",
+            "type": "string",
+            "description": "URL used for the WebSocket connection attempt."
+        }
+    ],
+    "returns": "WebSocket"
+}

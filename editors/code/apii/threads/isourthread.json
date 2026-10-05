@@ -1,0 +1,16 @@
+{
+    "name": "isourthread",
+    "aliases": [
+        "is_our_thread"
+    ],
+    "type": "function",
+    "description": "Returns whether the supplied Luau thread is tracked as a Real-created thread.",
+    "parameters": [
+        {
+            "name": "thread",
+            "type": "thread",
+            "description": "Luau thread to check."
+        }
+    ],
+    "returns": "boolean"
+}

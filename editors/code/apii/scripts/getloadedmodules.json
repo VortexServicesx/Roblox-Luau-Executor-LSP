@@ -1,0 +1,13 @@
+{
+    "name": "getloadedmodules",
+    "type": "function",
+    "description": "Returns a new array table containing live entries from the loaded module list. Core packages and CoreGui entries are excluded by default.",
+    "parameters": [
+        {
+            "name": "excludeCore",
+            "type": "boolean?",
+            "description": "Whether to exclude entries under core packages or CoreGui. Defaults to true when omitted or nil."
+        }
+    ],
+    "returns": "table"
+}

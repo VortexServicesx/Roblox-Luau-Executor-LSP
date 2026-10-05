@@ -1,0 +1,13 @@
+{
+    "name": "WebSocket.Close",
+    "type": "function",
+    "description": "Closes a WebSocket object returned by WebSocket.connect. It does not accept a close code or reason and returns no values.",
+    "parameters": [
+        {
+            "name": "socket",
+            "type": "WebSocket",
+            "description": "WebSocket table returned by WebSocket.connect."
+        }
+    ],
+    "returns": "()"
+}

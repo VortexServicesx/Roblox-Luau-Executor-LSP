@@ -1,0 +1,23 @@
+{
+    "name": "sethiddenproperty",
+    "type": "function",
+    "description": "Sets a Roblox property using reflection metadata, including properties that are not scriptable. Returns whether the property was hidden before the successful write.",
+    "parameters": [
+        {
+            "name": "instance",
+            "type": "Instance",
+            "description": "Instance whose property should be written."
+        },
+        {
+            "name": "property",
+            "type": "string",
+            "description": "Property name resolved through Roblox property metadata."
+        },
+        {
+            "name": "value",
+            "type": "any",
+            "description": "Value to write. The accepted type depends on the property's reflection type."
+        }
+    ],
+    "returns": "boolean | nil"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "cansignalreplicate",
+    "type": "function",
+    "description": "Checks whether a signal can be replicated through the Roblox networking layer.",
+    "parameters": [
+        {
+            "name": "signal",
+            "type": "RBXScriptSignal",
+            "description": "Signal to check for replication support."
+        }
+    ],
+    "returns": "boolean"
+}

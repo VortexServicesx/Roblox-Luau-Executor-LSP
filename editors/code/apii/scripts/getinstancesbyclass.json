@@ -1,0 +1,16 @@
+{
+    "name": "getinstancesbyclass",
+    "aliases": [
+        "getinstancesofclass"
+    ],
+    "type": "function",
+    "description": "Returns cached Instance values whose ClassName exactly matches the requested string. Matching is case-sensitive and does not include subclasses.",
+    "parameters": [
+        {
+            "name": "className",
+            "type": "string",
+            "description": "Exact ClassName to match."
+        }
+    ],
+    "returns": "table"
+}

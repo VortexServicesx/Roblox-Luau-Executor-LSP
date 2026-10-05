@@ -1,0 +1,13 @@
+{
+    "name": "getmenv",
+    "type": "function",
+    "description": "Returns the environment table associated with a ModuleScript.",
+    "parameters": [
+        {
+            "name": "moduleScript",
+            "type": "userdata",
+            "description": "ModuleScript whose environment table should be returned."
+        }
+    ],
+    "returns": "table"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "getscripts",
+    "type": "function",
+    "description": "Returns cached LocalScript, ModuleScript, and eligible Script Instance values from the Instance cache. Script entries are included when their RunContext is Client or Plugin.",
+    "parameters": [],
+    "returns": "{ Instance }"
+}

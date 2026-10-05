@@ -1,0 +1,6 @@
+{
+    "name": "Signal.new",
+    "type": "function",
+    "description": "Creates a new RealSignal object. The returned signal exposes Connect, Once, Wait, and Fire methods.",
+    "returns": "RealSignal"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "RealSignalConnection.Disconnect",
+    "type": "function",
+    "description": "Disconnects a RealSignalConnection returned by Connect or Once. The method returns no values.",
+    "parameters": [
+        {
+            "name": "connection",
+            "type": "RealSignalConnection",
+            "description": "Connection object returned by RealSignal.Connect or RealSignal.Once."
+        }
+    ],
+    "returns": "()"
+}

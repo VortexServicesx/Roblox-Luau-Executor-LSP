@@ -1,0 +1,13 @@
+{
+    "name": "getsenv",
+    "type": "function",
+    "description": "Returns the environment table associated with a LocalScript, Script, or ModuleScript.",
+    "parameters": [
+        {
+            "name": "script",
+            "type": "userdata",
+            "description": "LocalScript, Script, or ModuleScript whose environment should be returned."
+        }
+    ],
+    "returns": "table"
+}

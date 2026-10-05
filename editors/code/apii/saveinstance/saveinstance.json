@@ -1,0 +1,22 @@
+﻿{
+    "name": "saveinstance",
+    "aliases": [
+        "SaveInstance",
+        "save_instance"
+    ],
+    "type": "function",
+    "description": "Serializes the DataModel or a selected Instance to a Roblox XML place or model file and returns the saved path string. The root can be passed as the first argument, supplied as options.Object, or omitted to use game.",
+    "parameters": [
+        {
+            "name": "rootOrOptions",
+            "type": "Instance | SaveInstanceOptions?",
+            "description": "Optional root Instance to save, or the SaveInstanceOptions table when no root is passed separately."
+        },
+        {
+            "name": "options",
+            "type": "SaveInstanceOptions?",
+            "description": "Optional save options table. Used as argument 2 when argument 1 is an Instance."
+        }
+    ],
+    "returns": "string"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "getsignalwhitelist",
+    "type": "function",
+    "description": "Returns the whitelist information associated with a signal.",
+    "parameters": [
+        {
+            "name": "signal",
+            "type": "RBXScriptSignal",
+            "description": "Signal whose whitelist information should be retrieved."
+        }
+    ],
+    "returns": "table"
+}

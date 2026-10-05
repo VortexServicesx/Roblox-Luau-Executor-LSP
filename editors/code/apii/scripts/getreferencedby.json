@@ -1,0 +1,16 @@
+{
+    "name": "getreferencedby",
+    "aliases": [
+        "getreferences"
+    ],
+    "type": "function",
+    "description": "Returns cached Instance values whose supported reference properties point to the provided Instance.",
+    "parameters": [
+        {
+            "name": "instance",
+            "type": "userdata",
+            "description": "Target Instance to search for references to."
+        }
+    ],
+    "returns": "table"
+}

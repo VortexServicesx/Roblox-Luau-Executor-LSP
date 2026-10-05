@@ -1,0 +1,7 @@
+{
+    "name": "getrunningscripts",
+    "type": "function",
+    "description": "Returns a new array table containing unique script Instances associated with live Luau threads.",
+    "parameters": [],
+    "returns": "table"
+}

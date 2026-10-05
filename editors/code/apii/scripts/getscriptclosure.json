@@ -1,0 +1,16 @@
+{
+    "name": "getscriptclosure",
+    "aliases": [
+        "getscriptfunction"
+    ],
+    "type": "function",
+    "description": "Loads the stored bytecode for a supported Roblox script and returns it as a Lua closure. Returns nil when usable bytecode is unavailable or loading fails.",
+    "parameters": [
+        {
+            "name": "script",
+            "type": "userdata",
+            "description": "Supported script Instance. ModuleScript, LocalScript, CoreScript, or Script with RunContext Client."
+        }
+    ],
+    "returns": "function | nil"
+}

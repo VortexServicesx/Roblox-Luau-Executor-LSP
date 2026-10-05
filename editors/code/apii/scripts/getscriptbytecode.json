@@ -1,0 +1,13 @@
+{
+    "name": "getscriptbytecode",
+    "type": "function",
+    "description": "Returns the decompressed bytecode string for a supported Roblox script. Its behavior is identical to dumpstring.",
+    "parameters": [
+        {
+            "name": "script",
+            "type": "userdata",
+            "description": "Supported script Instance. ModuleScript, LocalScript, CoreScript, or Script with RunContext Client."
+        }
+    ],
+    "returns": "string | nil"
+}

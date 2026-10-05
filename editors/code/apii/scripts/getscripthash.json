@@ -1,0 +1,13 @@
+{
+    "name": "getscripthash",
+    "type": "function",
+    "description": "Returns an uppercase SHA384 hexadecimal digest of the stored bytecode bytes for a supported Roblox script.",
+    "parameters": [
+        {
+            "name": "script",
+            "type": "userdata",
+            "description": "Supported script Instance. ModuleScript, LocalScript, CoreScript, or Script with RunContext Client."
+        }
+    ],
+    "returns": "string | nil"
+}
