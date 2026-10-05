@@ -1,0 +1,10 @@
+{
+    "name": "rconsoleinput",
+    "aliases": [
+        "consoleinput"
+    ],
+    "type": "function",
+    "description": "Waits for one line of input from the current Windows console and returns it without the ending newline. If no console window exists, the function returns no values.",
+    "parameters": [],
+    "returns": "string"
+}

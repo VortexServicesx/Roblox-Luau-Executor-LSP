@@ -1,0 +1,31 @@
+{
+    "name": "crypt.encrypt",
+    "type": "function",
+    "description": "Encrypts Lua string bytes with AES CBC, ECB, or CTR using a Base64-decoded key, then returns Base64 ciphertext and the IV result.",
+    "parameters": [
+        {
+            "name": "data",
+            "type": "string",
+            "description": "Plaintext bytes read from a Lua string."
+        },
+        {
+            "name": "key",
+            "type": "string",
+            "description": "Base64 key decoded before it is passed to AES."
+        },
+        {
+            "name": "iv",
+            "type": "string?",
+            "description": "Optional Base64 IV for CBC or CTR. When omitted for CBC or CTR, a new AES block-size IV is generated."
+        },
+        {
+            "name": "mode",
+            "type": "\"CBC\" | \"ECB\" | \"CTR\" | \"AES-CBC\" | \"AES-ECB\" | \"AES-CTR\"?",
+            "description": "AES mode. The AES- prefix is removed when present. Defaults to AES-CBC. CBC and ECB use crypto library DEFAULT_PADDING; CTR uses no padding."
+        }
+    ],
+    "returns": [
+        "string",
+        "string | nil"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "cloneref",
+    "aliases": [
+        "clonereference"
+    ],
+    "type": "function",
+    "description": "Pushes a new Instance reference for the same underlying Instance and returns it.",
+    "parameters": [
+        {
+            "name": "instance",
+            "type": "Instance",
+            "description": "Instance object used as the source for the new reference."
+        }
+    ],
+    "returns": "Instance"
+}

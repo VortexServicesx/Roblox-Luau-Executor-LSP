@@ -1,0 +1,13 @@
+{
+    "name": "isfunctionhooked",
+    "type": "function",
+    "description": "Returns whether the provided function currently has a hook record.",
+    "parameters": [
+        {
+            "name": "func",
+            "type": "function",
+            "description": "Function to check."
+        }
+    ],
+    "returns": "boolean"
+}

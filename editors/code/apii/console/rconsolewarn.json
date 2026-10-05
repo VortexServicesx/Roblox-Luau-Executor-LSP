@@ -1,0 +1,16 @@
+{
+    "name": "rconsolewarn",
+    "aliases": [
+        "consolewarn"
+    ],
+    "type": "function",
+    "description": "Writes zero or more values to the current Windows console using the warning text color, then restores the normal console text color. Values are converted to strings and separated with tabs. If no console window exists, the call returns without writing anything.",
+    "parameters": [
+        {
+            "name": "...values",
+            "type": "...any",
+            "description": "Optional values converted to strings and written with tab characters between them."
+        }
+    ],
+    "returns": "()"
+}

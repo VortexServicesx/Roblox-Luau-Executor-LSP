@@ -1,0 +1,13 @@
+{
+    "name": "cache.invalidate",
+    "type": "function",
+    "description": "Removes the cached Instance entry for the given Instance.",
+    "parameters": [
+        {
+            "name": "instance",
+            "type": "Instance",
+            "description": "Instance whose Instance cache entry should be invalidated."
+        }
+    ],
+    "returns": "()"
+}

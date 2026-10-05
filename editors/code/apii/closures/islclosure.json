@@ -1,0 +1,16 @@
+{
+    "name": "islclosure",
+    "aliases": [
+        "isluaclosure"
+    ],
+    "type": "function",
+    "description": "Returns whether the provided function is a Lua closure.",
+    "parameters": [
+        {
+            "name": "func",
+            "type": "function",
+            "description": "Function to test."
+        }
+    ],
+    "returns": "boolean"
+}

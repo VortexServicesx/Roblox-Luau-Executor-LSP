@@ -1,0 +1,20 @@
+{
+    "name": "base64_decode",
+    "aliases": [
+        "base64decode",
+        "base64.decode",
+        "crypt.base64.decode",
+        "crypt.base64_decode",
+        "crypt.base64decode"
+    ],
+    "type": "function",
+    "description": "Decodes Base64 input with Base64 decoder and returns the decoded bytes as a Lua string.",
+    "parameters": [
+        {
+            "name": "data",
+            "type": "string",
+            "description": "Base64 input passed to Base64 decoder."
+        }
+    ],
+    "returns": "string"
+}

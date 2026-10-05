@@ -1,0 +1,18 @@
+{
+    "name": "newlclosure",
+    "type": "function",
+    "description": "Returns a Luau closure that calls the provided function.",
+    "parameters": [
+        {
+            "name": "func",
+            "type": "function",
+            "description": "Function called by the returned Luau closure."
+        },
+        {
+            "name": "debugName",
+            "type": "string?",
+            "description": "Optional debug name for the generated closure."
+        }
+    ],
+    "returns": "function"
+}

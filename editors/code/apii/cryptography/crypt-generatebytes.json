@@ -1,0 +1,13 @@
+{
+    "name": "crypt.generatebytes",
+    "type": "function",
+    "description": "Generates random bytes with random byte generator and returns them Base64-encoded as a Lua string.",
+    "parameters": [
+        {
+            "name": "size",
+            "type": "number",
+            "description": "Number converted to an integer before allocation. Values less than or equal to 0 are changed to 1."
+        }
+    ],
+    "returns": "string"
+}

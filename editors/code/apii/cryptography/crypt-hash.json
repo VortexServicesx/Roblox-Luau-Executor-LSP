@@ -1,0 +1,18 @@
+{
+    "name": "crypt.hash",
+    "type": "function",
+    "description": "Hashes Lua string bytes with a supported crypto library hash algorithm and returns a lowercase hexadecimal digest.",
+    "parameters": [
+        {
+            "name": "data",
+            "type": "string",
+            "description": "Lua string bytes passed to crypto library HashFilter."
+        },
+        {
+            "name": "algorithm",
+            "type": "\"sha256\" | \"sha1\" | \"sha224\" | \"sha384\" | \"sha512\" | \"md5\" | \"sha3-224\" | \"sha3-256\" | \"sha3-384\" | \"sha3-512\"?",
+            "description": "Case-sensitive hash algorithm name. Defaults to sha256."
+        }
+    ],
+    "returns": "string"
+}

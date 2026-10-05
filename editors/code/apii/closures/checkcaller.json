@@ -1,0 +1,7 @@
+{
+    "name": "checkcaller",
+    "type": "function",
+    "description": "Returns whether the current Luau thread is present in Real caller context.",
+    "parameters": [],
+    "returns": "boolean"
+}

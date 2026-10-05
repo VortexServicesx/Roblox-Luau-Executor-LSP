@@ -1,0 +1,18 @@
+{
+    "name": "newcclosure",
+    "type": "function",
+    "description": "Returns a C closure for the provided function. If the function is already a C closure, the same function is returned.",
+    "parameters": [
+        {
+            "name": "func",
+            "type": "function",
+            "description": "Function to wrap or return directly when it is already a C closure."
+        },
+        {
+            "name": "debugName",
+            "type": "string?",
+            "description": "Optional debug name used for the created closure."
+        }
+    ],
+    "returns": "function"
+}

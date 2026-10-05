@@ -1,0 +1,28 @@
+{
+    "name": "crypt.decrypt",
+    "type": "function",
+    "description": "Decrypts Base64 ciphertext with a Base64-decoded key and required Base64 IV using AES CBC or ECB.",
+    "parameters": [
+        {
+            "name": "data",
+            "type": "string",
+            "description": "Base64 ciphertext decoded before decryption."
+        },
+        {
+            "name": "key",
+            "type": "string",
+            "description": "Base64 key decoded before it is passed to AES."
+        },
+        {
+            "name": "iv",
+            "type": "string",
+            "description": "Base64 IV decoded before mode handling. This argument is required, including for ECB."
+        },
+        {
+            "name": "mode",
+            "type": "\"CBC\" | \"ECB\" | \"AES-CBC\" | \"AES-ECB\"",
+            "description": "AES mode. The AES- prefix is removed when present. Defaults to AES-CBC."
+        }
+    ],
+    "returns": "string"
+}

@@ -1,0 +1,18 @@
+{
+    "name": "compareinstances",
+    "type": "function",
+    "description": "Compares the Instance references stored in two Instance object values.",
+    "parameters": [
+        {
+            "name": "first",
+            "type": "Instance",
+            "description": "First Instance object to compare."
+        },
+        {
+            "name": "second",
+            "type": "Instance",
+            "description": "Second Instance object to compare."
+        }
+    ],
+    "returns": "boolean"
+}

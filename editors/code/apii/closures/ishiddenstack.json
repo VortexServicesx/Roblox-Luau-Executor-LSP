@@ -1,0 +1,16 @@
+{
+    "name": "ishiddenstack",
+    "aliases": [
+        "isstackhidden"
+    ],
+    "type": "function",
+    "description": "Returns whether a function, or the function at a stack level, is marked as hidden.",
+    "parameters": [
+        {
+            "name": "target",
+            "type": "function | number",
+            "description": "Function or stack level number to check."
+        }
+    ],
+    "returns": "boolean"
+}

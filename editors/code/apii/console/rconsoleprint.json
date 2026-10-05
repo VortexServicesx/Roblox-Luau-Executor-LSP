@@ -1,0 +1,18 @@
+{
+    "name": "rconsoleprint",
+    "aliases": [
+        "consoleprint",
+        "rconsolewrite",
+        "consolewrite"
+    ],
+    "type": "function",
+    "description": "Writes zero or more values to the current Windows console without changing the console text attribute. Values are converted to strings and separated with tabs. The function does not add a newline. If no console window exists, the call returns without converting or writing anything.",
+    "parameters": [
+        {
+            "name": "...values",
+            "type": "...any",
+            "description": "Optional values converted to strings and written with tab characters between them."
+        }
+    ],
+    "returns": "()"
+}

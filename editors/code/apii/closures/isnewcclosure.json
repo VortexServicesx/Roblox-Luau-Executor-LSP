@@ -1,0 +1,13 @@
+{
+    "name": "isnewcclosure",
+    "type": "function",
+    "description": "Returns whether the provided function is a newcclosure-created C closure.",
+    "parameters": [
+        {
+            "name": "func",
+            "type": "function",
+            "description": "Function to check."
+        }
+    ],
+    "returns": "boolean"
+}

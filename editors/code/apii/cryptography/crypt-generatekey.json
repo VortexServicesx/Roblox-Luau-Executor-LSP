@@ -1,0 +1,7 @@
+{
+    "name": "crypt.generatekey",
+    "type": "function",
+    "description": "Generates 32 random raw bytes with random byte generator and returns them Base64-encoded as a Lua string.",
+    "parameters": [],
+    "returns": "string"
+}

@@ -1,0 +1,24 @@
+{
+    "name": "hookfunction",
+    "aliases": [
+        "hookfunc",
+        "replaceclosure",
+        "detourfunction",
+        "detour_function"
+    ],
+    "type": "function",
+    "description": "Replaces the behavior of a target function with a replacement function and returns a callable copy of the original behavior.",
+    "parameters": [
+        {
+            "name": "target",
+            "type": "function",
+            "description": "Function to patch."
+        },
+        {
+            "name": "replacement",
+            "type": "function",
+            "description": "Function installed or mapped onto the target."
+        }
+    ],
+    "returns": "function"
+}

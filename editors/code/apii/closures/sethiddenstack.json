@@ -1,0 +1,21 @@
+{
+    "name": "sethiddenstack",
+    "aliases": [
+        "setstackhidden"
+    ],
+    "type": "function",
+    "description": "Marks or unmarks a function, or the function at a stack level, as hidden. hidden defaults to true.",
+    "parameters": [
+        {
+            "name": "target",
+            "type": "function | number",
+            "description": "Function or stack level number to mark or unmark."
+        },
+        {
+            "name": "hidden",
+            "type": "boolean?",
+            "description": "Whether the resolved function should be marked hidden. Defaults to true; false removes the mark."
+        }
+    ],
+    "returns": "()"
+}

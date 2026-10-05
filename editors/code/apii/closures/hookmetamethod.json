@@ -1,0 +1,23 @@
+{
+    "name": "hookmetamethod",
+    "type": "function",
+    "description": "Finds the named metamethod on a value and replaces that metamethod function with the provided replacement.",
+    "parameters": [
+        {
+            "name": "object",
+            "type": "any",
+            "description": "Value whose metatable is inspected."
+        },
+        {
+            "name": "metamethod",
+            "type": "string",
+            "description": "Metamethod name to look up."
+        },
+        {
+            "name": "replacement",
+            "type": "function",
+            "description": "Replacement function for the found metamethod."
+        }
+    ],
+    "returns": "function"
+}

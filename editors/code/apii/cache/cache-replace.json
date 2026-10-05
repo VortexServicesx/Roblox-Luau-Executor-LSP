@@ -1,0 +1,18 @@
+{
+    "name": "cache.replace",
+    "type": "function",
+    "description": "Sets the cached Instance entry for one Instance to another Instance.",
+    "parameters": [
+        {
+            "name": "instance",
+            "type": "Instance",
+            "description": "Instance whose Instance cache entry should be replaced."
+        },
+        {
+            "name": "replacement",
+            "type": "Instance",
+            "description": "Instance value to store in the cache entry for the first argument."
+        }
+    ],
+    "returns": "()"
+}

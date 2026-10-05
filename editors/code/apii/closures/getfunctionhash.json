@@ -1,0 +1,13 @@
+{
+    "name": "getfunctionhash",
+    "type": "function",
+    "description": "Returns an uppercase SHA384 hex digest derived from a Luau function. Returns nil when no hashable function content is available.",
+    "parameters": [
+        {
+            "name": "func",
+            "type": "function",
+            "description": "Luau function to hash."
+        }
+    ],
+    "returns": "string | nil"
+}

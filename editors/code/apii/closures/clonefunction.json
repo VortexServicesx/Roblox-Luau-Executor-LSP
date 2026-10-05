@@ -1,0 +1,13 @@
+{
+    "name": "clonefunction",
+    "type": "function",
+    "description": "Creates and returns a separate function value for the function passed as the first argument.",
+    "parameters": [
+        {
+            "name": "func",
+            "type": "function",
+            "description": "Function to clone."
+        }
+    ],
+    "returns": "function"
+}

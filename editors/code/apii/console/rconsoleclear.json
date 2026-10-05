@@ -1,0 +1,7 @@
+{
+    "name": "rconsoleclear",
+    "type": "function",
+    "description": "Clears the current Windows console screen buffer. If no console window exists, the call returns without doing anything.",
+    "parameters": [],
+    "returns": "()"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "base64_encode",
+    "aliases": [
+        "base64encode",
+        "base64.encode",
+        "crypt.base64.encode",
+        "crypt.base64_encode",
+        "crypt.base64encode"
+    ],
+    "type": "function",
+    "description": "Encodes a Lua string's bytes with Base64 encoder, using = padding and no line breaks.",
+    "parameters": [
+        {
+            "name": "data",
+            "type": "string",
+            "description": "Lua string bytes passed to Base64 encoder."
+        }
+    ],
+    "returns": "string"
+}

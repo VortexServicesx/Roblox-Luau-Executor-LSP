@@ -1,0 +1,22 @@
+{
+    "name": "restorefunction",
+    "aliases": [
+        "restorefunc",
+        "restoreclosure"
+    ],
+    "type": "function",
+    "description": "Restores a hooked function, or replaces one function with another when two function arguments are provided.",
+    "parameters": [
+        {
+            "name": "firstFunction",
+            "type": "function",
+            "description": "With one argument, the hooked function to restore. With two function arguments, the function to replace."
+        },
+        {
+            "name": "secondFunction",
+            "type": "function?",
+            "description": "Optional closure to patch with firstFunction."
+        }
+    ],
+    "returns": "()"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "iscclosure",
+    "type": "function",
+    "description": "Returns whether the provided function is a C closure.",
+    "parameters": [
+        {
+            "name": "func",
+            "type": "function",
+            "description": "Function value to check."
+        }
+    ],
+    "returns": "boolean"
+}

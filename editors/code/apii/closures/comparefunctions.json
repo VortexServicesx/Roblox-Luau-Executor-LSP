@@ -1,0 +1,21 @@
+{
+    "name": "comparefunctions",
+    "aliases": [
+        "comparefunction"
+    ],
+    "type": "function",
+    "description": "Compares two function values by their function identity.",
+    "parameters": [
+        {
+            "name": "func1",
+            "type": "function",
+            "description": "First function value to compare."
+        },
+        {
+            "name": "func2",
+            "type": "function",
+            "description": "Second function value to compare."
+        }
+    ],
+    "returns": "boolean"
+}
