@@ -1,0 +1,13 @@
+{
+    "name": "json.type",
+    "type": "function",
+    "description": "Returns a string type name for a value. json.null returns \"null\". Tables return \"array\" or \"object\" using the same classification as json.isArray and json.isObject.",
+    "parameters": [
+        {
+            "name": "value",
+            "type": "any",
+            "description": "Value to classify."
+        }
+    ],
+    "returns": "string"
+}

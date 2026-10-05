@@ -1,0 +1,23 @@
+{
+    "name": "messagebox",
+    "type": "function",
+    "description": "Shows a Windows message box with text, caption, and numeric flags, then returns the integer result code.",
+    "parameters": [
+        {
+            "name": "text",
+            "type": "string",
+            "description": "Message text."
+        },
+        {
+            "name": "caption",
+            "type": "string",
+            "description": "Window caption."
+        },
+        {
+            "name": "flags",
+            "type": "number",
+            "description": "Numeric message box flags."
+        }
+    ],
+    "returns": "integer"
+}

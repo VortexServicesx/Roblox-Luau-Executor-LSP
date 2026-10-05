@@ -1,0 +1,12 @@
+{
+    "name": "clear_teleport_queue",
+    "aliases": [
+        "clearteleportqueue",
+        "clear_tp_queue",
+        "cleartpqueue",
+        "clearqueueonteleport"
+    ],
+    "type": "function",
+    "description": "Clears Real's queued teleport source strings and returns no values.",
+    "returns": "()"
+}

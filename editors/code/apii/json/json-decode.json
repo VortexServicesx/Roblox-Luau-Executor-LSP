@@ -1,0 +1,18 @@
+{
+    "name": "json.decode",
+    "type": "function",
+    "description": "Parses a JSON string with Real's JSON parser and returns the decoded Lua value, marking decoded arrays and objects for the JSON helpers.",
+    "parameters": [
+        {
+            "name": "json",
+            "type": "string",
+            "description": "JSON text to parse."
+        },
+        {
+            "name": "options",
+            "type": "DecodeOptions?",
+            "description": "Optional decode options. A boolean sets useNull directly; a table can set useNull and maxDepth."
+        }
+    ],
+    "returns": "any"
+}

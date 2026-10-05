@@ -1,0 +1,18 @@
+{
+    "name": "mousemoveabs",
+    "type": "function",
+    "description": "Moves the mouse using Windows absolute mouse input when the Roblox window is active. Coordinates are interpreted relative to the active foreground window client area.",
+    "parameters": [
+        {
+            "name": "x",
+            "type": "number",
+            "description": "Client-area X coordinate."
+        },
+        {
+            "name": "y",
+            "type": "number",
+            "description": "Client-area Y coordinate."
+        }
+    ],
+    "returns": "()"
+}

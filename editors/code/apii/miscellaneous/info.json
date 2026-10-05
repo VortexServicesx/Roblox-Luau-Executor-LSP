@@ -1,0 +1,13 @@
+{
+    "name": "info",
+    "type": "function",
+    "description": "Writes zero or more values as an informational message. Values are converted to strings and separated with tab characters. The function returns no values.",
+    "parameters": [
+        {
+            "name": "...values",
+            "type": "...any",
+            "description": "Zero or more values to write as an informational message."
+        }
+    ],
+    "returns": "()"
+}

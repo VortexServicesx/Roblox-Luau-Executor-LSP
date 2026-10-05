@@ -1,0 +1,13 @@
+{
+    "name": "makewriteable",
+    "type": "function",
+    "description": "Marks a table as writable and returns no values.",
+    "parameters": [
+        {
+            "name": "target",
+            "type": "table",
+            "description": "Table to mark as writable."
+        }
+    ],
+    "returns": "()"
+}

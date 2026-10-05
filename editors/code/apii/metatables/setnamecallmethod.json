@@ -1,0 +1,16 @@
+{
+    "name": "setnamecallmethod",
+    "aliases": [
+        "set_namecall_method"
+    ],
+    "type": "function",
+    "description": "Replaces the current namecall method string when a current namecall method exists. If no current namecall method exists, the function returns no values and does not create one.",
+    "parameters": [
+        {
+            "name": "method",
+            "type": "string",
+            "description": "String used to replace the current namecall method."
+        }
+    ],
+    "returns": "()"
+}

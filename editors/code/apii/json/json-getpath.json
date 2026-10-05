@@ -1,0 +1,26 @@
+{
+    "name": "json.getPath",
+    "aliases": [
+        "json.getpath"
+    ],
+    "type": "function",
+    "description": "Reads a nested value from a table using a dotted string path or an array table of keys.",
+    "parameters": [
+        {
+            "name": "object",
+            "type": "table",
+            "description": "Root table to read from."
+        },
+        {
+            "name": "path",
+            "type": "string | table",
+            "description": "Path to follow. A string is split on dots; a table path uses its array entries as keys."
+        },
+        {
+            "name": "defaultValue",
+            "type": "any?",
+            "description": "Fallback value returned when traversal cannot complete."
+        }
+    ],
+    "returns": "any | nil"
+}

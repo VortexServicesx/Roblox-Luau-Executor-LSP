@@ -1,0 +1,33 @@
+{
+    "name": "RakNet.send",
+    "aliases": [
+        "RakNet.Send",
+        "raknet.send",
+        "raknet.Send"
+    ],
+    "type": "function",
+    "description": "Queues packet data for the RakNet send path. The packet can be a string, buffer, array table of byte numbers, RakNetPacket, or RakNetPacketTable. Raw data calls may also pass optional priority, reliability, and orderingChannel values.",
+    "parameters": [
+        {
+            "name": "packet",
+            "type": "string | buffer | {number} | RakNetPacket | RakNetPacketTable",
+            "description": "Packet data or packet object to queue. Array-table bytes must be numbers from 0 through 255."
+        },
+        {
+            "name": "priority",
+            "type": "integer?",
+            "description": "Optional priority used only for raw data calls. Defaults to 2."
+        },
+        {
+            "name": "reliability",
+            "type": "integer?",
+            "description": "Optional reliability used only for raw data calls. Defaults to 3."
+        },
+        {
+            "name": "orderingChannel",
+            "type": "integer?",
+            "description": "Optional ordering channel used only for raw data calls. Defaults to 0."
+        }
+    ],
+    "returns": "()"
+}

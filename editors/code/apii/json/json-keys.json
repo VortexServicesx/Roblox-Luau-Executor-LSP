@@ -1,0 +1,13 @@
+{
+    "name": "json.keys",
+    "type": "function",
+    "description": "Returns the visible keys of a table in a new table marked as a JSON array.",
+    "parameters": [
+        {
+            "name": "object",
+            "type": "table",
+            "description": "Table to inspect."
+        }
+    ],
+    "returns": "table"
+}

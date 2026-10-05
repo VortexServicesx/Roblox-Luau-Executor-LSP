@@ -1,0 +1,13 @@
+{
+    "name": "json.escape",
+    "type": "function",
+    "description": "Escapes a string using Real's JSON string escaping rules and returns the escaped content without surrounding quotes.",
+    "parameters": [
+        {
+            "name": "text",
+            "type": "string",
+            "description": "String to escape."
+        }
+    ],
+    "returns": "string"
+}

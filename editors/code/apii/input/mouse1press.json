@@ -1,0 +1,7 @@
+{
+    "name": "mouse1press",
+    "type": "function",
+    "description": "Sends a left mouse button down event when the Roblox window is active. It does not send a matching mouse button up event.",
+    "parameters": [],
+    "returns": "()"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "RakNetPacket.Block",
+    "aliases": [
+        "RakNetPacket.Ignore"
+    ],
+    "type": "function",
+    "description": "Marks a live RakNetPacket as blocked. Ignore resolves to the same method.",
+    "parameters": [
+        {
+            "name": "packet",
+            "type": "RakNetPacket",
+            "description": "Live packet object passed to a RakNet hook or signal callback."
+        }
+    ],
+    "returns": "()"
+}

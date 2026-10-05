@@ -1,0 +1,9 @@
+{
+    "name": "identifyexecutor",
+    "type": "function",
+    "description": "Returns two strings: the executor name followed by the executor version.",
+    "returns": [
+        "string",
+        "string"
+    ]
+}

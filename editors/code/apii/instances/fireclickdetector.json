@@ -1,0 +1,23 @@
+{
+    "name": "fireclickdetector",
+    "type": "function",
+    "description": "Fires a ClickDetector interaction for the local player.",
+    "parameters": [
+        {
+            "name": "detector",
+            "type": "Instance",
+            "description": "Instance whose ClassName must be ClickDetector."
+        },
+        {
+            "name": "distance",
+            "type": "number?",
+            "description": "Optional distance value. Defaults to 0."
+        },
+        {
+            "name": "clickOption",
+            "type": "\"mouseclick\" | \"rightmouseclick\" | \"mousehoverenter\" | \"mousehoverleave\"",
+            "description": "Optional interaction selector."
+        }
+    ],
+    "returns": "()"
+}

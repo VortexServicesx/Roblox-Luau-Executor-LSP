@@ -1,0 +1,18 @@
+{
+    "name": "getmetafield",
+    "type": "function",
+    "description": "Returns a raw metafield value from the target metatable. It does not call the metafield or invoke __index lookup, and returns nil when the metatable or field is missing.",
+    "parameters": [
+        {
+            "name": "target",
+            "type": "any",
+            "description": "Value whose metatable is inspected."
+        },
+        {
+            "name": "field",
+            "type": "string",
+            "description": "Metafield name to read."
+        }
+    ],
+    "returns": "any | nil"
+}

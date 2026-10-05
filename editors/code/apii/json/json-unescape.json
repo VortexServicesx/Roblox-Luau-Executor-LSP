@@ -1,0 +1,13 @@
+{
+    "name": "json.unescape",
+    "type": "function",
+    "description": "Decodes JSON string escape sequences from escaped string content or from a complete quoted JSON string literal.",
+    "parameters": [
+        {
+            "name": "text",
+            "type": "string",
+            "description": "Escaped JSON string content or a complete quoted JSON string literal."
+        }
+    ],
+    "returns": "string"
+}

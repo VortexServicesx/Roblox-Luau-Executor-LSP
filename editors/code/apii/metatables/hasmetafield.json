@@ -1,0 +1,18 @@
+{
+    "name": "hasmetafield",
+    "type": "function",
+    "description": "Returns whether the target value has a non-nil raw metafield with the requested name.",
+    "parameters": [
+        {
+            "name": "target",
+            "type": "any",
+            "description": "Value whose metatable is inspected."
+        },
+        {
+            "name": "field",
+            "type": "string",
+            "description": "Metafield name to check."
+        }
+    ],
+    "returns": "boolean"
+}

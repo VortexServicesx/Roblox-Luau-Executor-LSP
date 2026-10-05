@@ -1,0 +1,18 @@
+{
+    "name": "json.stringify",
+    "type": "function",
+    "description": "Serializes a Lua value to a JSON string like json.encode.",
+    "parameters": [
+        {
+            "name": "value",
+            "type": "any",
+            "description": "Value to encode."
+        },
+        {
+            "name": "options",
+            "type": "EncodeOptions?",
+            "description": "Optional encoding and formatting options."
+        }
+    ],
+    "returns": "string"
+}

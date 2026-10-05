@@ -1,0 +1,23 @@
+{
+    "name": "json.decodeSafe",
+    "type": "function",
+    "description": "Parses JSON with the same parsing behavior as json.decode and returns a success flag instead of throwing for parse errors.",
+    "parameters": [
+        {
+            "name": "json",
+            "type": "string",
+            "description": "JSON text to parse."
+        },
+        {
+            "name": "options",
+            "type": "DecodeOptions?",
+            "description": "Optional decode options."
+        }
+    ],
+    "returns": [
+        "boolean",
+        "any | nil",
+        "string | nil",
+        "number | nil"
+    ]
+}

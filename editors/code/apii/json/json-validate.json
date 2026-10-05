@@ -1,0 +1,22 @@
+{
+    "name": "json.validate",
+    "type": "function",
+    "description": "Validates a JSON string by parsing one complete JSON value. On success it returns only true; on parse failure it returns false plus parser error details.",
+    "parameters": [
+        {
+            "name": "json",
+            "type": "string",
+            "description": "JSON string to validate."
+        },
+        {
+            "name": "options",
+            "type": "DecodeOptions?",
+            "description": "Optional decode options."
+        }
+    ],
+    "returns": [
+        "boolean",
+        "string | nil",
+        "number | nil"
+    ]
+}

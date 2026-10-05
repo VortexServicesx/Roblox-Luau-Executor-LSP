@@ -1,0 +1,18 @@
+{
+    "name": "mousemoverel",
+    "type": "function",
+    "description": "Moves the mouse by a relative X/Y delta when the Roblox window is active.",
+    "parameters": [
+        {
+            "name": "x",
+            "type": "number",
+            "description": "Relative X movement delta."
+        },
+        {
+            "name": "y",
+            "type": "number",
+            "description": "Relative Y movement delta."
+        }
+    ],
+    "returns": "()"
+}

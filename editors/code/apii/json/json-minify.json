@@ -1,0 +1,18 @@
+{
+    "name": "json.minify",
+    "type": "function",
+    "description": "Parses a JSON string and re-encodes it with Real's default non-pretty JSON encoder output.",
+    "parameters": [
+        {
+            "name": "json",
+            "type": "string",
+            "description": "JSON string to parse before minifying."
+        },
+        {
+            "name": "options",
+            "type": "DecodeOptions?",
+            "description": "Optional decode options used while parsing the input JSON."
+        }
+    ],
+    "returns": "string"
+}

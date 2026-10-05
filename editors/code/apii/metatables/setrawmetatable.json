@@ -1,0 +1,21 @@
+{
+    "name": "setrawmetatable",
+    "aliases": [
+        "debug.setmetatable"
+    ],
+    "type": "function",
+    "description": "Sets the metatable for a target value and returns the original target. A nil metatable clears the metatable.",
+    "parameters": [
+        {
+            "name": "target",
+            "type": "any",
+            "description": "Value whose metatable is changed."
+        },
+        {
+            "name": "metatable",
+            "type": "table | nil",
+            "description": "New metatable, or nil to clear the metatable."
+        }
+    ],
+    "returns": "any"
+}

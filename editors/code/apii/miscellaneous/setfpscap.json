@@ -1,0 +1,13 @@
+{
+    "name": "setfpscap",
+    "type": "function",
+    "description": "Sets the FPS cap value and returns no values. Values that are non-finite, less than or equal to 0, or greater than 2000 are treated as 2000.",
+    "parameters": [
+        {
+            "name": "fps",
+            "type": "number",
+            "description": "FPS cap value to set."
+        }
+    ],
+    "returns": "()"
+}

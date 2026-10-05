@@ -1,0 +1,13 @@
+{
+    "name": "keyrelease",
+    "type": "function",
+    "description": "Sends a key up event when the Roblox window is active. This does not send a corresponding key down event.",
+    "parameters": [
+        {
+            "name": "keyCode",
+            "type": "number",
+            "description": "Windows virtual-key code."
+        }
+    ],
+    "returns": "()"
+}

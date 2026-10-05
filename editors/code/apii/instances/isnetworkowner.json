@@ -1,0 +1,13 @@
+{
+    "name": "isnetworkowner",
+    "type": "function",
+    "description": "Returns true when the Instance reports a NetworkOwnerV3 value greater than 2.",
+    "parameters": [
+        {
+            "name": "instance",
+            "type": "Instance",
+            "description": "Instance whose NetworkOwnerV3 hidden property is checked."
+        }
+    ],
+    "returns": "boolean"
+}

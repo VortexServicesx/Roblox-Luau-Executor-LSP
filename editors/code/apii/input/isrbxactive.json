@@ -1,0 +1,11 @@
+{
+    "name": "isrbxactive",
+    "aliases": [
+        "isgameactive",
+        "iswindowactive"
+    ],
+    "type": "function",
+    "description": "Returns whether the current foreground window is the Roblox window found by Real.",
+    "parameters": [],
+    "returns": "boolean"
+}

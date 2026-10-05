@@ -1,0 +1,16 @@
+{
+    "name": "RakNet.add_send_hook",
+    "aliases": [
+        "raknet.add_send_hook"
+    ],
+    "type": "function",
+    "description": "Registers a callback for observed outgoing RakNet packets. The callback receives one RakNetPacket while the packet is valid. Registering the same closure again replaces its stored reference.",
+    "parameters": [
+        {
+            "name": "callback",
+            "type": "(packet: RakNetPacket) -> ()",
+            "description": "Function called with each observed outgoing RakNetPacket."
+        }
+    ],
+    "returns": "function"
+}

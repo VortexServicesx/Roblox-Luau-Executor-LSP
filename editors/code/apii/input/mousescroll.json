@@ -1,0 +1,13 @@
+{
+    "name": "mousescroll",
+    "type": "function",
+    "description": "Sends a mouse wheel event when the Roblox window is active.",
+    "parameters": [
+        {
+            "name": "amount",
+            "type": "number",
+            "description": "Mouse wheel data value."
+        }
+    ],
+    "returns": "()"
+}

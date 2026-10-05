@@ -1,0 +1,7 @@
+{
+    "name": "mouse1click",
+    "type": "function",
+    "description": "Sends a left mouse button down event followed by a left mouse button up event when the Roblox window is active.",
+    "parameters": [],
+    "returns": "()"
+}

@@ -1,0 +1,21 @@
+{
+    "name": "getcallbackvalue",
+    "aliases": [
+        "getcallbackmember"
+    ],
+    "type": "function",
+    "description": "Reads a Lua callback function stored in a callback property on an Instance.",
+    "parameters": [
+        {
+            "name": "instance",
+            "type": "Instance",
+            "description": "Instance object whose callback property should be inspected."
+        },
+        {
+            "name": "property",
+            "type": "string",
+            "description": "Property name to resolve."
+        }
+    ],
+    "returns": "function | nil"
+}

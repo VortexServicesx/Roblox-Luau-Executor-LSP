@@ -1,0 +1,18 @@
+{
+    "name": "json.clone",
+    "type": "function",
+    "description": "Clones a value by encoding it with json.encode semantics and decoding the generated JSON back into Lua values.",
+    "parameters": [
+        {
+            "name": "value",
+            "type": "any",
+            "description": "Value to encode and decode."
+        },
+        {
+            "name": "options",
+            "type": "EncodeOptions?",
+            "description": "Optional encode options passed to the encode step."
+        }
+    ],
+    "returns": "any"
+}

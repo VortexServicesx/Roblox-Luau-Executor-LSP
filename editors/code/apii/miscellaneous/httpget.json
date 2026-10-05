@@ -1,0 +1,23 @@
+{
+    "name": "HttpGet",
+    "type": "function",
+    "description": "Performs a GET request for game:HttpGet(url, noCache) or game:HttpGetAsync(url, noCache) and returns the response body string.",
+    "parameters": [
+        {
+            "name": "context",
+            "type": "DataModel",
+            "description": "Method-call self value. Use game:HttpGet(url, noCache) or game:HttpGetAsync(url, noCache)."
+        },
+        {
+            "name": "url",
+            "type": "string",
+            "description": "URL string to request."
+        },
+        {
+            "name": "noCache",
+            "type": "boolean | number?",
+            "description": "Optional cache bypass. true or numeric 1 skips an existing cached response and performs a new request."
+        }
+    ],
+    "returns": "string"
+}

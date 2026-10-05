@@ -1,0 +1,16 @@
+{
+    "name": "RakNet.add_receive_hook",
+    "aliases": [
+        "raknet.add_receive_hook"
+    ],
+    "type": "function",
+    "description": "Registers a callback for observed incoming RakNet packets. The callback receives one RakNetPacket while the packet is valid. Registering the same closure again replaces its stored reference.",
+    "parameters": [
+        {
+            "name": "callback",
+            "type": "(packet: RakNetPacket) -> ()",
+            "description": "Function called with each observed incoming RakNetPacket."
+        }
+    ],
+    "returns": "function"
+}

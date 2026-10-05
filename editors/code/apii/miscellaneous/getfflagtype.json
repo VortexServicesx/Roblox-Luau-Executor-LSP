@@ -1,0 +1,13 @@
+{
+    "name": "getfflagtype",
+    "type": "function",
+    "description": "Returns the detected type for a Roblox fast flag as string, bool, int, or unknown. Missing or unsupported flags return unknown.",
+    "parameters": [
+        {
+            "name": "name",
+            "type": "string",
+            "description": "Exact fast flag name to inspect."
+        }
+    ],
+    "returns": "\"string\" | \"bool\" | \"int\" | \"unknown\""
+}

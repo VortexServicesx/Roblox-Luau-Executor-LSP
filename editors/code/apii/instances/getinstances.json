@@ -1,0 +1,7 @@
+{
+    "name": "getinstances",
+    "type": "function",
+    "description": "Returns a new array containing every object currently stored in the Instance cache.",
+    "parameters": [],
+    "returns": "{ Instance }"
+}

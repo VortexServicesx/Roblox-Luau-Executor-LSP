@@ -1,0 +1,10 @@
+{
+    "name": "getnamecallmethod",
+    "aliases": [
+        "get_namecall_method"
+    ],
+    "type": "function",
+    "description": "Returns the current namecall method string when one is available, otherwise nil.",
+    "parameters": [],
+    "returns": "string | nil"
+}

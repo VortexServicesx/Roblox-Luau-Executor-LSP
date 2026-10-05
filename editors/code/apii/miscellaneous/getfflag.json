@@ -1,0 +1,13 @@
+{
+    "name": "getfflag",
+    "type": "function",
+    "description": "Reads a Roblox fast flag by exact name and returns its value as a string. Missing or unsupported flags return nil.",
+    "parameters": [
+        {
+            "name": "name",
+            "type": "string",
+            "description": "Exact fast flag name to read."
+        }
+    ],
+    "returns": "string | nil"
+}

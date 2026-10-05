@@ -1,0 +1,18 @@
+{
+    "name": "GetObjects",
+    "type": "function",
+    "description": "Loads a local Roblox asset and returns a one-item table containing the loaded Instance. Use the method-call form game:GetObjects(asset).",
+    "parameters": [
+        {
+            "name": "context",
+            "type": "DataModel",
+            "description": "Method-call self value. Use game:GetObjects(asset)."
+        },
+        {
+            "name": "asset",
+            "type": "string",
+            "description": "Asset string passed to Roblox local asset loading."
+        }
+    ],
+    "returns": "{ Instance }"
+}

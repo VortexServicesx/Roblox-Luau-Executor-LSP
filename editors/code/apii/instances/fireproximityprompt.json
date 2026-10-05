@@ -1,0 +1,13 @@
+{
+    "name": "fireproximityprompt",
+    "type": "function",
+    "description": "Fires a ProximityPrompt.",
+    "parameters": [
+        {
+            "name": "prompt",
+            "type": "Instance",
+            "description": "The ProximityPrompt to fire."
+        }
+    ],
+    "returns": []
+}

@@ -1,0 +1,13 @@
+{
+    "name": "json.array",
+    "type": "function",
+    "description": "Creates a new table marked as a JSON array for json.encode, copying the source sequence when a source table is provided.",
+    "parameters": [
+        {
+            "name": "source",
+            "type": "table?",
+            "description": "Optional source table. When omitted or nil, returns a new empty array-marked table. When provided, numeric sequence entries from 1 with #source are copied."
+        }
+    ],
+    "returns": "table"
+}

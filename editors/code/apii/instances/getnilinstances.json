@@ -1,0 +1,7 @@
+{
+    "name": "getnilinstances",
+    "type": "function",
+    "description": "Returns Instances with nil parents.",
+    "parameters": [],
+    "returns": "{ Instance }"
+}

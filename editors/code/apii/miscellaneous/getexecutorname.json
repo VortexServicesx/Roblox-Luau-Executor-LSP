@@ -1,0 +1,6 @@
+{
+    "name": "getexecutorname",
+    "type": "function",
+    "description": "Returns Real's executor name as one string.",
+    "returns": "string"
+}

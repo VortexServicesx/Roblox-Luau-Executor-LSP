@@ -1,0 +1,38 @@
+{
+    "name": "HttpPost",
+    "type": "function",
+    "description": "Performs a POST request for game:HttpPost(...) or game:HttpPostAsync(...) and returns the response body string or a request error string.",
+    "parameters": [
+        {
+            "name": "context",
+            "type": "DataModel",
+            "description": "Method-call self value. Use game:HttpPost(...) or game:HttpPostAsync(...)."
+        },
+        {
+            "name": "url",
+            "type": "string",
+            "description": "URL string to request."
+        },
+        {
+            "name": "body",
+            "type": "string?",
+            "description": "Optional request body. Defaults to an empty string."
+        },
+        {
+            "name": "contentTypeOrCompatibility",
+            "type": "string | number | boolean?",
+            "description": "Normally the content type string. A number uses legacy timeout mode, and a boolean uses legacy compression mode."
+        },
+        {
+            "name": "headersOrContentType",
+            "type": "table | string?",
+            "description": "Optional headers table in the normal call shape, or optional content type string in legacy mode."
+        },
+        {
+            "name": "headers",
+            "type": "table?",
+            "description": "Optional headers table used only in legacy mode."
+        }
+    ],
+    "returns": "string"
+}

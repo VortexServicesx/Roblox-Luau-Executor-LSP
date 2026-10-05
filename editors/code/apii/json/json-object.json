@@ -1,0 +1,13 @@
+{
+    "name": "json.object",
+    "type": "function",
+    "description": "Creates a new table marked as a JSON object so Real's JSON encoder treats it as an object.",
+    "parameters": [
+        {
+            "name": "source",
+            "type": "table?",
+            "description": "Optional source table to copy into the new object table."
+        }
+    ],
+    "returns": "table"
+}

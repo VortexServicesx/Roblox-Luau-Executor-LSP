@@ -1,0 +1,18 @@
+{
+    "name": "setreadonly",
+    "type": "function",
+    "description": "Sets whether a table is readonly and returns no values.",
+    "parameters": [
+        {
+            "name": "target",
+            "type": "table",
+            "description": "Table whose readonly status is changed."
+        },
+        {
+            "name": "readonly",
+            "type": "boolean",
+            "description": "Readonly value to apply."
+        }
+    ],
+    "returns": "()"
+}

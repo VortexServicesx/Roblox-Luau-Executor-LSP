@@ -1,0 +1,13 @@
+{
+    "name": "json.values",
+    "type": "function",
+    "description": "Returns the direct values from a table in a new JSON array table. JSON metadata entries are not included.",
+    "parameters": [
+        {
+            "name": "object",
+            "type": "table",
+            "description": "Table to enumerate."
+        }
+    ],
+    "returns": "table"
+}

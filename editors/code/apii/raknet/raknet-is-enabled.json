@@ -1,0 +1,9 @@
+{
+    "name": "RakNet.is_enabled",
+    "aliases": [
+        "raknet.is_enabled"
+    ],
+    "type": "function",
+    "description": "Returns whether RakNet support is enabled for the current Real session.",
+    "returns": "boolean"
+}

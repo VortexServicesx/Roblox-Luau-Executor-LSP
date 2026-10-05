@@ -1,0 +1,26 @@
+{
+    "name": "firetouchinterest",
+    "aliases": [
+        "firetouchtransmitter"
+    ],
+    "type": "function",
+    "description": "Fires Real's touch interest event for two BasePart instances.",
+    "parameters": [
+        {
+            "name": "partA",
+            "type": "Instance",
+            "description": "First Instance object. It must pass IsA(\"BasePart\")."
+        },
+        {
+            "name": "partB",
+            "type": "Instance",
+            "description": "Second Instance object. It must pass IsA(\"BasePart\")."
+        },
+        {
+            "name": "state",
+            "type": "number | boolean",
+            "description": "Required state value."
+        }
+    ],
+    "returns": "()"
+}

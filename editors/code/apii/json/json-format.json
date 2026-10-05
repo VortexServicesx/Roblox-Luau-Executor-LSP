@@ -1,0 +1,23 @@
+{
+    "name": "json.format",
+    "type": "function",
+    "description": "Parses a JSON string and re-encodes it as readable formatted JSON using Real's JSON parser and encoder.",
+    "parameters": [
+        {
+            "name": "json",
+            "type": "string",
+            "description": "JSON string to parse before formatting."
+        },
+        {
+            "name": "encodeOptions",
+            "type": "EncodeOptions?",
+            "description": "Optional encode options passed to the re-encode step. Pretty output is forced on."
+        },
+        {
+            "name": "decodeOptions",
+            "type": "DecodeOptions?",
+            "description": "Optional decode options used while parsing the input."
+        }
+    ],
+    "returns": "string"
+}

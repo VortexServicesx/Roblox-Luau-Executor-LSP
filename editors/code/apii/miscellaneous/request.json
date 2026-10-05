@@ -1,0 +1,17 @@
+{
+    "name": "request",
+    "aliases": [
+        "http_request",
+        "http.request"
+    ],
+    "type": "function",
+    "description": "Sends an HTTP or HTTPS request and yields until it completes. Url is required. Method defaults to GET and may be GET, POST, PUT, PATCH, or DELETE.",
+    "parameters": [
+        {
+            "name": "options",
+            "type": "RequestOptions",
+            "description": "Request options table. Url is required; Method, Headers, Cookies, and Body are optional."
+        }
+    ],
+    "returns": "Response | string"
+}

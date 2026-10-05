@@ -1,0 +1,18 @@
+{
+    "name": "RakNetPacket.SetData",
+    "type": "function",
+    "description": "Replaces the data stored on a live RakNetPacket with a string, buffer, or array table of byte numbers. The packet ID is updated from the first byte, or 0 when the new data is empty.",
+    "parameters": [
+        {
+            "name": "packet",
+            "type": "RakNetPacket",
+            "description": "Live packet object passed to a RakNet hook or signal callback."
+        },
+        {
+            "name": "data",
+            "type": "string | buffer | {number}",
+            "description": "Replacement packet data. Array-table bytes must be numbers from 0 through 255."
+        }
+    ],
+    "returns": "()"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "RakNet.OnPacketReceive.Connect",
+    "aliases": [
+        "raknet.OnPacketReceive.Connect"
+    ],
+    "type": "function",
+    "description": "Connects a callback to the OnPacketReceive signal table. The callback receives a RakNetPacket while the packet is valid.",
+    "parameters": [
+        {
+            "name": "callback",
+            "type": "(packet: RakNetPacket) -> ()",
+            "description": "Function called with each observed incoming RakNetPacket."
+        }
+    ],
+    "returns": "RakNetSignalConnection"
+}

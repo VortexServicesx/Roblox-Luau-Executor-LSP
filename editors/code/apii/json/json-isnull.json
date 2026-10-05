@@ -1,0 +1,13 @@
+{
+    "name": "json.isNull",
+    "type": "function",
+    "description": "Returns whether a value is Real's JSON null sentinel, json.null.",
+    "parameters": [
+        {
+            "name": "value",
+            "type": "any",
+            "description": "Value to inspect."
+        }
+    ],
+    "returns": "boolean"
+}

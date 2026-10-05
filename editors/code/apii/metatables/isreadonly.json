@@ -1,0 +1,13 @@
+{
+    "name": "isreadonly",
+    "type": "function",
+    "description": "Returns whether a table is readonly.",
+    "parameters": [
+        {
+            "name": "target",
+            "type": "table",
+            "description": "Table whose readonly status is checked."
+        }
+    ],
+    "returns": "boolean"
+}

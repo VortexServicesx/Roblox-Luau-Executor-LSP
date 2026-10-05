@@ -1,0 +1,7 @@
+{
+    "name": "mouse2release",
+    "type": "function",
+    "description": "Sends a right mouse button up event when the Roblox window is active. It does not send a matching mouse button down event.",
+    "parameters": [],
+    "returns": "()"
+}

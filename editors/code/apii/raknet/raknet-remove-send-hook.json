@@ -1,0 +1,16 @@
+{
+    "name": "RakNet.remove_send_hook",
+    "aliases": [
+        "raknet.remove_send_hook"
+    ],
+    "type": "function",
+    "description": "Removes a send hook previously registered with the same callback closure. Returns no values whether or not a matching hook was present.",
+    "parameters": [
+        {
+            "name": "callback",
+            "type": "function",
+            "description": "The callback closure to remove from outgoing packet hooks."
+        }
+    ],
+    "returns": "()"
+}

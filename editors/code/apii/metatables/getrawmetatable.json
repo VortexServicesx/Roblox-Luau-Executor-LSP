@@ -1,0 +1,16 @@
+{
+    "name": "getrawmetatable",
+    "aliases": [
+        "debug.getmetatable"
+    ],
+    "type": "function",
+    "description": "Returns the metatable currently attached to a target value, or nil when none is present.",
+    "parameters": [
+        {
+            "name": "target",
+            "type": "any",
+            "description": "Value whose metatable is returned."
+        }
+    ],
+    "returns": "table | nil"
+}

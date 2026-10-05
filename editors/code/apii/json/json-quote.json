@@ -1,0 +1,13 @@
+{
+    "name": "json.quote",
+    "type": "function",
+    "description": "Escapes a string using Real's JSON string escaping rules and returns a complete quoted JSON string literal.",
+    "parameters": [
+        {
+            "name": "text",
+            "type": "string",
+            "description": "String to quote."
+        }
+    ],
+    "returns": "string"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "gethwid",
+    "type": "function",
+    "description": "Returns Real's hardware identifier string.",
+    "returns": "string"
+}

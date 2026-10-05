@@ -1,0 +1,6 @@
+{
+    "name": "getexecutorversion",
+    "type": "function",
+    "description": "Returns Real's executor version as one string.",
+    "returns": "string"
+}

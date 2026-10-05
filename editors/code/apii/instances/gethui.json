@@ -1,0 +1,13 @@
+{
+    "name": "gethui",
+    "aliases": [
+        "gethiddenui",
+        "gethiddengui",
+        "get_hidden_ui",
+        "get_hidden_gui"
+    ],
+    "type": "function",
+    "description": "Returns RobloxGui from CoreGui.",
+    "parameters": [],
+    "returns": "Instance | nil"
+}

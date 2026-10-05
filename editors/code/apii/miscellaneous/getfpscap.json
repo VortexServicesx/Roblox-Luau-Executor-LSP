@@ -1,0 +1,6 @@
+{
+    "name": "getfpscap",
+    "type": "function",
+    "description": "Returns the current FPS cap value represented by Roblox, or 0 when the value cannot be read.",
+    "returns": "number"
+}
